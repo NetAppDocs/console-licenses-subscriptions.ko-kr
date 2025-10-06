@@ -1,0 +1,17 @@
+---
+sidebar: sidebar 
+permalink: task-manage-capacity-licenses.html 
+keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+summary: 콘솔에서 용량 기반 라이선스를 관리하여 NetApp 계정에 Cloud Volumes ONTAP 시스템에 필요한 용량이 충분한지 확인하세요. 
+---
+= 용량 기반 Cloud Volume ONTAP 라이선스 관리
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+<stdin>에 해결되지 않은 지시어가 있습니다 - include:: https://raw.githubusercontent.com/NetAppDocs/console-cloud-volumes-ontap/main/task-manage-capacity-licenses.adoc [lines=15..-1]

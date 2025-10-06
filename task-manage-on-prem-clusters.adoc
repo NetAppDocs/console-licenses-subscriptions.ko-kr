@@ -1,0 +1,79 @@
+---
+sidebar: sidebar 
+permalink: task-manage-on-prem-clusters.html 
+keywords: cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract, bluexp, netapp console 
+summary: 온프레미스 ONTAP 클러스터 각각에 대한 계약 세부 정보를 확인하세요.  아직 콘솔에서 클러스터를 발견하지 못했다면, 직접 발견할 수도 있습니다. 
+---
+= 온프레미스 ONTAP 라이선스 관리
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+콘솔에서 온프레미스 ONTAP 클러스터 각각에 대한 계약 세부 정보를 볼 수 있습니다.  클러스터를 발견하지 못한 경우에도 발견할 수 있습니다.
+
+.시작하기 전에
+콘솔은 시스템으로 발견한 온프레미스 ONTAP 클러스터 또는 콘솔에 추가한 NetApp 지원 사이트 계정과 연결된 클러스터에 대한 세부 정보를 표시합니다.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["온프레미스 ONTAP 클러스터를 검색하는 방법을 알아보세요"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["콘솔 조직 또는 계정과 연결된 NSS 자격 증명을 관리하는 방법을 알아보세요."^]
+
+
+
+
+== 클러스터 정보 및 계약 세부 정보 보기
+
+온프레미스 ONTAP 클러스터의 하드웨어 및 소프트웨어 계약 상태를 확인하여 만료되기 전에 갱신할 수 있습니다.
+
+.단계
+. NetApp 콘솔 메뉴에서 *거버넌스 > 라이선스 및 구독*을 선택합니다.
+. *온프레미스 ONTAP*을 선택하세요.
++
+각 클러스터의 소프트웨어 계약 및 하드웨어 계약 만료 날짜가 줄에 표시됩니다.
+
++
+먼저 NetApp 지원 사이트(NSS) 계정 자격 증명을 입력하라는 메시지가 표시되면 *NSS 계정 추가*를 선택하세요.  계정을 추가하면 해당 NSS 계정과 연결된 클러스터가 나타납니다.
+
+. 계약이 만료일이 다가오거나 만료된 경우, 콘솔 오른쪽 하단에 있는 채팅 아이콘을 선택하여 계약 연장을 요청할 수 있습니다.
+. 자세한 내용을 보려면 선택하세요image:button_down_caret.png["아래쪽 캐럿 아이콘"] 클러스터 정보를 확장합니다.
+
+
+
+
+== 클러스터를 발견하세요
+
+시스템으로 온프레미스 ONTAP 클러스터를 발견하지 못한 경우 콘솔에서 발견할 수 있습니다.  클러스터가 발견되면 이를 시스템으로 사용할 수 있으므로 관리할 수 있습니다.
+
+.시작하기 전에
+콘솔 에이전트를 사용한 검색 또는 에이전트 없이 직접 검색하는 등 검색 및 관리 옵션과 검색 요구 사항을 이해해야 합니다.
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["검색 옵션 및 요구 사항에 대해 알아보세요"^] .
+
+.단계
+. NetApp 콘솔 메뉴에서 *거버넌스 > 라이선스 및 구독*을 선택합니다.
+. *온프레미스 ONTAP*을 선택하세요.
++
+ONTAP 클러스터는 콘솔에서 검색되었는지 여부에 따라 상태가 표시됩니다.
+
++
+먼저 NetApp 지원 사이트(NSS) 계정 자격 증명을 입력하라는 메시지가 표시되면 *NSS 계정 추가*를 선택하세요.  계정을 추가하면 해당 NSS 계정과 연결된 클러스터가 나타납니다.
+
+. 콘솔을 통해 관리하려는 클러스터에 대해 *검색*을 선택합니다.
+. _Discover ONTAP Cluster_ 페이지에서 관리자 사용자 계정의 비밀번호를 입력하고 *Discover*를 선택합니다.
+
+
+
+NOTE: 클러스터 관리 IP 주소는 NetApp 지원 사이트 계정의 정보를 기반으로 채워집니다.
+
+.결과
+콘솔은 클러스터를 검색하고 시스템 페이지에 시스템으로 추가합니다.  _On-Premises ONTAP_ 페이지에서 클러스터 상태가 *검색됨*으로 변경됩니다.  시스템 이름은 클러스터의 이름입니다.
+
+이제 클러스터 관리를 시작할 수 있습니다.
+
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["콘솔 에이전트로 검색된 클러스터를 관리하는 방법을 알아보세요."^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["직접 검색된 클러스터를 관리하는 방법을 알아보세요."^]
+

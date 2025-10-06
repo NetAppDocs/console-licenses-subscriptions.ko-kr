@@ -1,0 +1,150 @@
+---
+sidebar: sidebar 
+permalink: task-manage-private-aws.html 
+keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
+summary: AWS, Azure, Google Cloud에 대한 일반 및 하이퍼스케일러별 종단 간 개인 제안 프로세스와 NetApp Intelligent Services 수용 및 활성화 가이드를 관리합니다. 
+---
+= NetApp 콘솔에 대한 AWS Marketplace 비공개 제안을 수락하고 구성합니다.
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+AWS 콘솔에서 NetApp 콘솔에 대한 Marketplace 비공개 제안을 수락하고 콘솔에서 AWS 자격 증명을 구성합니다.
+
+.시작하기 전에
+* NetApp 판매팀과 협력하여 비공개 제안을 만들고 활성화 링크를 받으세요.
+* 필요한 AWS Marketplace 권한이 있는지 확인하세요.
++
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-private-offers-subscribing.html["비공개 제안 보기 및 구독"]
+** link:https://docs.aws.amazon.com/marketplace/latest/buyerguide/buyer-iam-users-groups-policies.html["구매자 권한 검증"]
+
+
+
+
+
+
+== AWS 콘솔에서 비공개 제안 수락
+
+구매를 활성화하고 할인된 가격을 적용하려면 콘솔에서 구독 할당을 완료해야 합니다.
+
+[NOTE]
+====
+비공개 제안을 활성화하려면 모든 단계를 완료해야 합니다. 단계를 건너뛰면 청구 오류가 발생할 수 있습니다. 해당 제안을 여러 번 수락하고 활성화하면 요금이 두 배로 청구됩니다.
+
+====
+.단계
+. NetApp 영업팀의 비공개 제안 활성화 링크를 클릭하세요. 링크는 다음과 비슷하게 보여야 합니다.
+`https://aws.amazon.com/marketplace/saas/ordering?productId=aaa&offerId=offer-aaa`
++
+ If you did not receive the link, view private offers in the AWS Marketplace console. The following permissions are required:
++
+** AWS 관리 정책 사용: *AWSMarketplaceRead-only*, *AWSMarketplaceManageSubscriptions* 또는 *AWSMarketplaceFullAccess*
+** 사용자 지정 IAM 정책 사용: `aws-marketplace:ListPrivateListings` 그리고 `aws-marketplace:ViewSubscriptions`
+
+
+. 비공개 제안을 보려면 AWS Marketplace로 리디렉션됩니다.
++
+[NOTE]
+====
+비공개 매물은 공개 매물 목록에 추가됩니다. *제안 선택* 드롭다운을 사용하여 공개 및 비공개 제안 간에 전환하세요.
+
+====
+. 개인 제안 세부 정보를 검토하고 귀하의 계약과 일치하는지 확인하세요. 만약 틀린 내용이라면 수락하지 마세요. NetApp 계정팀에 문의하세요.
++
+[NOTE]
+====
+개인 제안에는 두 가지 유형이 있습니다.
+
+** *주문형 사용*
++
+*** 가격 정보
+*** 법률 용어
+
+
+** *계약*
++
+*** 기간 및 날짜
+*** 갱신 설정
+*** 계약 옵션
+*** 총 계약 가격
+
+
+
+
+계약 제안의 경우, 합의된 단위 수를 입력하세요. Cloud Volumes ONTAP 의 경우 구독하기 전에 올바른 라이선스를 선택했는지 확인하세요.
+
+====
+. 비공개 제안을 수락하려면 다음을 수행하세요.
++
+.. 주문형으로 이용하려면 *구독*을 클릭하세요.
+.. 계약 제안의 경우, 각 서비스의 단위 수를 입력하고 *계약 생성*을 클릭하세요.
+
+
+. 수락 후, 배너에서 구독을 확인하고 등록 지침을 제공합니다.
+. *계정 설정*을 클릭하세요. 이렇게 하면 NetApp 콘솔로 리디렉션되어 구독을 구성할 수 있습니다.
++
+[NOTE]
+====
+제안을 수락했지만 등록을 완료하지 않은 경우 제품 페이지로 돌아가세요. 계약 목록을 보려면 *구매 옵션 보기*를 클릭하여 제안을 표시한 다음 *계정 설정*을 선택하세요.
+
+====
+. Sign in https://console.netapp.com[] 콘솔 계정을 사용하세요.
+. 로그인 후 다음으로 이동합니다. https://console.netapp.com/licenses/overview[] . 다음 메시지가 표시됩니다.
++
+.. 마켓플레이스 구독에 대한 *표시 이름*을 입력하세요.
+.. 구독에 액세스할 수 있는 콘솔 *계정*을 선택하세요.
+.. [선택 사항] 기존 구독을 덮어쓰려면 *기존 구독 교체*를 활성화하세요.
++
+[NOTE]
+====
+*** 교체는 하나의 콘솔 계정에만 적용됩니다.
+*** 여러 계정을 동일한 구독에 연결하려면 추가 계정을 수동으로 구성하세요.
+*** 자격 증명이 구독과 연결되지 않은 경우 다음 섹션에 설명된 대로 수동으로 연결하세요.
+
+
+====
+
+
+. *연결*을 클릭한 다음 *완료*를 클릭합니다.
+
+
+[IMPORTANT]
+====
+할인된 가격을 적용하려면 콘솔에서 구독 할당을 완료해야 합니다.
+
+====
+
+
+== AWS 자격 증명으로 구독 구성
+
+. 콘솔에서 *거버넌스 > 라이선스 및 구독*으로 이동하여 *마켓플레이스 구독* 탭을 선택합니다.
+. 이전에 생성한 구독을 찾으세요. 행을 확장하여 콘솔 계정과 연결되어 있는지 확인하세요.
++
+[NOTE]
+====
+AWS Marketplace의 제한으로 인해 일부 비공개 제안의 세부 정보는 AWS 콘솔 외부에 공개되지 않습니다. 필드가 표시되는 경우 `N/A` AWS 콘솔에서 직접 정보를 확인하세요.
+
+====
+. 구독 옆에 있는 세 개의 점 메뉴를 클릭하고 *구성*을 선택하세요.
+. 적절한 *AWS 계정 자격 증명*을 선택하고 *구성*을 클릭합니다.
+
+
+[NOTE]
+====
+이러한 자격 증명에 대한 마켓플레이스 요금은 마켓플레이스 구독을 통해 청구됩니다. 연간 계약의 경우 비용은 계약 사용량에 포함됩니다.
+
+====
+[IMPORTANT]
+====
+구독과 연결하려는 콘솔 계정의 각 AWS 자격 증명에 대해 1~4단계를 반복합니다.
+
+* 다른 콘솔 조직의 자격 증명의 경우 *조직* 드롭다운을 사용하여 단계를 반복합니다.
+* 다른 에이전트의 자격 증명을 보려면 *에이전트* 드롭다운을 사용하여 단계를 반복하세요.
+
+
+====

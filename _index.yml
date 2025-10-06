@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: 라이센스 및 구독 문서
+  summary: NetApp 콘솔에서 라이선스와 구독을 관리하고 모니터링하세요.
+  keywords: netapp console, bluexp, documentation, licenses, subscriptions
+  lead: NetApp 콘솔에서 라이선스와 구독을 관리하고 모니터링하세요.
+  tiles:
+  - title: 시작하기
+    links:
+    - title: 라이선스 및 구독에 대해 알아보세요
+      url: concept-digital-wallet.html
+  - title: 라이센스 관리
+    links:
+    - title: Cloud Volumes ONTAP 에 대한 용량 기반 라이선스 관리
+      url: task-manage-capacity-licenses.html
+    - title: NetApp 데이터 서비스에 대한 라이선스 관리
+      url: task-manage-data-services-licenses.html
+  - title: 구독 관리
+    links:
+    - title: 마켓플레이스 구독 및 계약 관리
+      url: task-manage-subscriptions.html
+    - title: Keystone 구독 관리
+      url: task-manage-keystone.html
+  - title: 블로그 및 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP 블로그
+      url: https://bluexp.netapp.com/blog
+    - title: 클라우드 웨비나
+      url: https://bluexp.netapp.com/events

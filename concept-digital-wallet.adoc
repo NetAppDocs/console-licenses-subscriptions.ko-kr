@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: concept-digital-wallet.html 
+keywords: license, licensing, licenses, subscriptions, 
+summary: 라이선스와 구독을 통해 NetApp Console 라이선스, NetApp 마켓플레이스 구독, NetApp Keystone 관리하고 모니터링할 수 있습니다. 
+---
+= 라이선스 및 구독에 대해 알아보세요
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 콘솔에서 NetApp (BYOL), NetApp 데이터 서비스( Cloud Volumes ONTAP 포함)에 대한 마켓플레이스 구독, NetApp NetApp Keystone 구독에서 구매한 라이선스를 관리하고 모니터링할 수 있습니다.
+
+
+
+== 콘솔에 라이센스 및 구독이 표시되는 방식
+
+콘솔 계정이 NetApp 지원 사이트(NSS) 계정과 연결되어 있는 경우 라이선스 및 구독 정보가 콘솔에 자동으로 표시됩니다.  콘솔 계정이 NSS 계정과 연결되어 있지 않으면 수동으로 라이선스를 추가해야 합니다.  라이선스를 수동으로 추가하면 사용량, 용량 및 기타 세부 정보가 자동으로 업데이트되지 않습니다.
+
+
+NOTE: 구독 정보를 보려면 콘솔 에이전트를 배포해야 합니다.  Cloud Volumes ONTAP 의 노드 라이선스를 보려면 에이전트도 필요합니다.
+
+
+
+=== 자동 라이센스 검색
+
+콘솔은 NetApp 지원 사이트 계정과 관련된 라이선스 세부 정보를 얻기 위해 NetApp 라이선스 서비스에 자동으로 쿼리를 보냅니다.  쿼리가 성공하면 콘솔이 자동으로 라이선스를 추가합니다.
+
+
+
+=== 수동 라이센스 추가
+
+콘솔에서 라이선스를 자동으로 추가할 수 없는 경우 수동으로 추가해야 합니다.  이는 콘솔 계정이 NetApp 지원 사이트 계정과 연결되지 않은 경우 발생합니다.
+
+NetApp 영업 담당자로부터 라이선스를 구매하면 NetApp 일련 번호와 라이선스 세부 정보가 포함된 이메일을 보냅니다.  해당 일련 번호를 사용하여 콘솔에서 라이센스를 추가하거나 업데이트하세요.
+
+https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["콘솔 자격 증명에 NetApp 지원 사이트 계정을 추가하는 방법을 알아보세요."^] .
+
+
+
+== 지원되는 서비스
+
+콘솔에서 다음 서비스에 대한 라이선스와 구독을 관리할 수 있습니다.
+
+* https://docs.netapp.com/us-en/console-backup-recovery/index.html["백업 및 복구"^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/index.html["재해 복구"^](BYOL만 해당)
+* https://docs.netapp.com/us-en/console-ransomware-protection/index.html["랜섬웨어 복원력"^]
+* https://docs.netapp.com/us-en/console-tiering/index.html["클라우드 티어링"^]
+

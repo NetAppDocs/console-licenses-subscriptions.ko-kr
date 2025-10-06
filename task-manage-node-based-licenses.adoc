@@ -1,0 +1,17 @@
+---
+sidebar: sidebar 
+permalink: task-manage-node-based-licenses.html 
+keywords: license, licensing, install, updating license, system license, add system license, adding a system license, byol license, add byol license, update byol license, nlf, license generator, digital wallet, bluexp digital wallet 
+summary: 콘솔에서 노드 기반 라이선스를 관리하여 각 Cloud Volumes ONTAP 시스템에 필요한 용량을 갖춘 유효한 라이선스가 있는지 확인하세요. 
+---
+= 노드 기반 라이선스 관리
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: https://docs.netapp.com/us-en/console-cloud-volumes-ontap/media/
+
+
+[role="lead"]
+<stdin>에 해결되지 않은 지시어가 있습니다 - include:: https://raw.githubusercontent.com/NetAppDocs/console-cloud-volumes-ontap/main/task-manage-node-licenses.adoc [lines=15..-1]

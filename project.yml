@@ -1,0 +1,58 @@
+---
+settings:
+  name: Licenses and subscriptions
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: 라이센스 및 구독 문서
+    url: "/index.html"
+  - title: 릴리스 노트
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
+  - title: 시작하기
+    entries:
+    - title: 에 대해 알아보세요
+      url: "/concept-digital-wallet.html"
+  - title: 라이센스 및 구독 사용
+    entries:
+    - title: 개요 대시보드 사용
+      url: "/task-homepage.html"
+    - title: 라이선스 관리
+      entries:
+      - title: 직접 라이선스 관리
+        url: "/task-manage-data-services-licenses.html"
+      - title: Cloud Volumes ONTAP 라이선스 관리
+        entries:
+        - title: Cloud Volumes ONTAP 에 대한 용량 기반 라이선스
+          url: "/task-manage-capacity-licenses.html"
+        - title: Cloud Volumes ONTAP 에 대한 노드 기반 라이선스
+          url: "/task-manage-node-based-licenses.html"
+    - title: 비공개 제안 관리
+      entries:
+      - title: AWS 프라이빗 오퍼 관리
+        url: "/task-manage-private-aws.html"
+      - title: Azure 비공개 제안 관리
+        url: "/task-manage-private-azure.html"
+      - title: Google Cloud 비공개 제안 관리
+        url: "/task-manage-private-google-cloud.html"
+    - title: 마켓플레이스 구독 관리
+      url: "/task-manage-subscriptions.html"
+    - title: Keystone 구독 관리
+      url: "/task-manage-keystone.html"
+    - title: 지식과 지원
+      entries:
+      - title: 지원 등록
+        url: "/task-support-registration.html"
+      - title: 도움을 받으세요
+        url: "/task-get-help.html"
+    - title: 법적 고지 사항
+      url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family
