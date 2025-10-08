@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, release notes, enhancements, fixes, licenses, subscriptions' 
-summary: NetApp 콘솔 라이선스 및 구독의 새로운 소식을 알아보세요. 
+summary: NetApp Console 라이선스 및 구독의 새로운 소식을 알아보세요. 
 ---
 = 새로운 소식
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: NetApp 콘솔 라이선스 및 구독의 새로운 소식을 알아보�
 
 
 [role="lead"]
-NetApp 콘솔 라이선스 및 구독의 새로운 소식을 알아보세요.
+NetApp Console 라이선스 및 구독의 새로운 소식을 알아보세요.
 
 
 
@@ -22,11 +22,11 @@ NetApp 콘솔 라이선스 및 구독의 새로운 소식을 알아보세요.
 
 
 
-=== BlueXP 는 이제 NetApp 콘솔입니다.
+=== BlueXP 는 이제 NetApp Console 입니다.
 
-강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지와 NetApp 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.
+강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp Console 엔터프라이즈급 온프레미스 및 클라우드 환경에서 NetApp 스토리지와 NetApp Data Services 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.
 
-변경된 사항에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp 콘솔 릴리스 노트"] .
+변경된 사항에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console 릴리스 노트"] .
 
 
 
@@ -120,7 +120,7 @@ BlueXP digital wallet 이제 비공개 제안과 관련된 Google Cloud Marketpl
 
 === 충전 사용량 내역
 
-이제 용량 기반 라이선스에 가입했을 때 요금이 얼마인지 알아볼 수 있습니다.  다음 유형의 사용 보고서는 BlueXP digital wallet 에서 다운로드할 수 있습니다.  사용 보고서는 구독의 용량 세부 정보를 제공하고 Cloud Volumes ONTAP 구독의 리소스에 대한 요금이 어떻게 청구되는지 알려줍니다.  다운로드 가능한 보고서는 다른 사람들과 쉽게 공유할 수 있습니다.
+이제 용량 기반 라이선스에 가입했을 때 요금이 얼마인지 알아볼 수 있습니다. 다음 유형의 사용 보고서는 BlueXP digital wallet 에서 다운로드할 수 있습니다. 사용 보고서는 구독의 용량 세부 정보를 제공하고 Cloud Volumes ONTAP 구독의 리소스에 대한 요금이 어떻게 청구되는지 알려줍니다. 다운로드 가능한 보고서는 다른 사람들과 쉽게 공유할 수 있습니다.
 
 * Cloud Volumes ONTAP 패키지 사용
 * 높은 수준의 사용법
@@ -186,7 +186,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === 충전 방식 변경
 
-이제 용량 기반 라이선싱을 사용하는 Cloud Volumes ONTAP 시스템의 요금 청구 방법을 변경할 수 있습니다.  예를 들어, Essentials 패키지로 Cloud Volumes ONTAP 시스템을 배포한 경우 비즈니스 요구 사항이 변경되면 Professional 패키지로 변경할 수 있습니다.
+이제 용량 기반 라이선싱을 사용하는 Cloud Volumes ONTAP 시스템의 요금 청구 방법을 변경할 수 있습니다. 예를 들어, Essentials 패키지로 Cloud Volumes ONTAP 시스템을 배포한 경우 비즈니스 요구 사항이 변경되면 Professional 패키지로 변경할 수 있습니다.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["충전 방법을 변경하는 방법을 알아보세요"] .
 
@@ -198,9 +198,9 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 === 소비 용량
 
-이제 계정에서 사용된 총 용량과 라이선스 패키지별로 사용된 용량이 표시됩니다.  이를 통해 요금이 어떻게 청구되는지, 추가 용량을 구매해야 하는지 파악하는 데 도움이 됩니다.
+이제 계정에서 사용된 총 용량과 라이선스 패키지별로 사용된 용량이 표시됩니다. 이를 통해 요금이 어떻게 청구되는지, 추가 용량을 구매해야 하는지 파악하는 데 도움이 됩니다.
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["용량 기반 라이선스 페이지를 보여주는 스크린샷입니다.  이 페이지에서는 계정에서 사용된 용량에 대한 개요를 제공하고, 라이선스 패키지별로 사용된 용량을 세부적으로 보여줍니다."]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["용량 기반 라이선스 페이지를 보여주는 스크린샷입니다. 이 페이지에서는 계정에서 사용된 용량에 대한 개요를 제공하고, 라이선스 패키지별로 사용된 용량을 세부적으로 보여줍니다."]
 
 
 
@@ -210,7 +210,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/ma
 
 === 온프레미스 ONTAP 클러스터에 대한 라이선스
 
-이제 온프레미스 ONTAP 클러스터의 인벤토리와 해당 하드웨어 및 서비스 계약 만료일을 볼 수 있습니다.  클러스터에 대한 추가 세부 정보도 제공됩니다.
+이제 온프레미스 ONTAP 클러스터의 인벤토리와 해당 하드웨어 및 서비스 계약 만료일을 볼 수 있습니다. 클러스터에 대한 추가 세부 정보도 제공됩니다.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["온프레미스 ONTAP 클러스터의 라이선스를 관리하는 방법을 알아보세요."] .
 

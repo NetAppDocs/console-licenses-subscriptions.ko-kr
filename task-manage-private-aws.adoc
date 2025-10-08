@@ -4,7 +4,7 @@ permalink: task-manage-private-aws.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
 summary: AWS, Azure, Google Cloud에 대한 일반 및 하이퍼스케일러별 종단 간 개인 제안 프로세스와 NetApp Intelligent Services 수용 및 활성화 가이드를 관리합니다. 
 ---
-= NetApp 콘솔에 대한 AWS Marketplace 비공개 제안을 수락하고 구성합니다.
+= NetApp Console 대한 AWS Marketplace 비공개 제안을 수락하고 구성합니다.
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: AWS, Azure, Google Cloud에 대한 일반 및 하이퍼스케일러별 
 
 
 [role="lead"]
-AWS 콘솔에서 NetApp 콘솔에 대한 Marketplace 비공개 제안을 수락하고 콘솔에서 AWS 자격 증명을 구성합니다.
+AWS 콘솔에서 NetApp Console 대한 Marketplace 비공개 제안을 수락하고 콘솔에서 AWS 자격 증명을 구성합니다.
 
 .시작하기 전에
 * NetApp 판매팀과 협력하여 비공개 제안을 만들고 활성화 링크를 받으세요.
@@ -86,7 +86,7 @@ AWS 콘솔에서 NetApp 콘솔에 대한 Marketplace 비공개 제안을 수락�
 
 
 . 수락 후, 배너에서 구독을 확인하고 등록 지침을 제공합니다.
-. *계정 설정*을 클릭하세요. 이렇게 하면 NetApp 콘솔로 리디렉션되어 구독을 구성할 수 있습니다.
+. *계정 설정*을 클릭하세요. 이렇게 하면 NetApp Console 로 리디렉션되어 구독을 구성할 수 있습니다.
 +
 [NOTE]
 ====
@@ -122,7 +122,7 @@ AWS 콘솔에서 NetApp 콘솔에 대한 Marketplace 비공개 제안을 수락�
 
 == AWS 자격 증명으로 구독 구성
 
-. 콘솔에서 *거버넌스 > 라이선스 및 구독*으로 이동하여 *마켓플레이스 구독* 탭을 선택합니다.
+. 콘솔에서 *거버넌스 > Licenses and subscriptions*으로 이동한 다음 *마켓플레이스 구독* 탭을 선택합니다.
 . 이전에 생성한 구독을 찾으세요. 행을 확장하여 콘솔 계정과 연결되어 있는지 확인하세요.
 +
 [NOTE]

@@ -4,7 +4,7 @@ permalink: task-manage-private-azure.html
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, azure 
 summary: AWS, Azure, Google Cloud에 대한 일반 및 하이퍼스케일러별 종단 간 개인 제안 프로세스와 NetApp Intelligent Services 수용 및 활성화 가이드를 관리합니다. 
 ---
-= NetApp 콘솔에 대한 Azure 비공개 제안 수락 및 활성화
+= NetApp Console 대한 Azure 비공개 제안 수락 및 활성화
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: AWS, Azure, Google Cloud에 대한 일반 및 하이퍼스케일러별 
 
 
 [role="lead"]
-Azure Portal에서 NetApp 콘솔에 대한 Marketplace 비공개 제안을 수락하고 구독하세요.  콘솔에서 Azure 자격 증명을 구성합니다.
+Azure Portal에서 NetApp Console 에 대한 Marketplace 비공개 제안을 수락하고 구독하세요.  콘솔에서 Azure 자격 증명을 구성합니다.
 
 .시작하기 전에
 * NetApp 영업팀과 협력하여 Azure Billing ID에 대한 비공개 제안을 만드세요.
@@ -74,7 +74,7 @@ Azure 구독은 하나의 Marketplace 구독에만 연결될 수 있습니다. �
 
 . 선택적으로 *태그*(제품, 사이트 위치, 작업 정의 또는 명명 규칙)를 설정합니다.
 . *검토 및 구독*을 클릭하고 세부 정보를 확인한 다음 *구독*을 클릭하세요.
-. 구독이 성공적으로 생성되면 *지금 계정 구성*을 클릭하세요. 이렇게 하면 NetApp 콘솔로 리디렉션되어 구성을 완료할 수 있습니다.
+. 구독이 성공적으로 생성되면 *지금 계정 구성*을 클릭하세요. 이렇게 하면 NetApp Console 로 리디렉션되어 구성을 완료할 수 있습니다.
 +
 [NOTE]
 ====
@@ -109,7 +109,7 @@ Azure 측 자동화를 완료하는 데 30초에서 5분이 걸릴 수 있습니
 
 == Azure 자격 증명으로 구독 구성
 
-. 콘솔에서 *거버넌스 > 라이선스 및 구독*으로 이동하여 *마켓플레이스 구독* 탭을 선택합니다.
+. 콘솔에서 *거버넌스 > Licenses and subscriptions*으로 이동한 다음 *마켓플레이스 구독* 탭을 선택합니다.
 . 구독 세부 정보를 확인하세요.
 +
 .. 귀하가 만든 마켓플레이스 구독을 찾으세요.
