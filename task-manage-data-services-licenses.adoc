@@ -21,30 +21,113 @@ NOTE: *직접 라이선스* 페이지에는 모든 라이선스가 나열되어 
 
 이 페이지의 지침은 각 서비스에 적용되는 정보를 제공합니다.  이러한 서비스에 대한 라이선싱에 대한 자세한 내용은 다음 페이지를 참조하세요.
 
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["BlueXP backup and recovery 에 대한 라이선싱 설정"^]
-* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["BlueXP disaster recovery 위한 라이선싱 설정"^]
-* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["BlueXP ransomware protection 위한 라이선싱 설정"^]
-* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["BlueXP tiering 에 대한 라이선싱 설정"^]
-* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP 에 대한 라이선싱 설정"^]
+* https://docs.netapp.com/us-en/console-backup-recovery/br-start-licensing.html["NetApp 백업 및 복구에 대한 라이선싱 설정"^]
+* https://docs.netapp.com/us-en/console-disaster-recovery/get-started/dr-licensing.html["NetApp 재해 복구에 대한 라이선싱 설정"^]
+* https://docs.netapp.com/us-en/console-ransomware-resilience/rp-start-licenses.html["NetApp 랜섬웨어 복원력에 대한 라이선싱 설정"^]
+* https://docs.netapp.com/us-en/console-tiering/task-licensing-cloud-tiering.html["NetApp Cloud Tiering에 대한 라이선싱 설정"^]
+* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP 에 대한 라이선싱 설정"^]
 
 
 
 
 == 라이센스 파일을 얻으세요
 
-<stdin>에 해결되지 않은 지시어 - include::_include/task-obtain-license.adoc[]
+콘솔에 인터넷 접속이 없는 경우(개인 모드 설치) 업로드하려면 NetApp 라이선스 파일을 얻어야 합니다.
+
+NetApp 영업 담당자로부터 라이선스를 구매하면 일련 번호와 라이선스 세부 정보가 포함된 이메일을 받게 됩니다.  콘솔에 라이센스가 자동으로 나타나지 않으면 일련 번호를 사용하여 라이센스 파일을 얻으세요.
+
+.단계
+. 콘솔 계정 ID 찾기:
++
+.. 콘솔의 오른쪽 상단에서 다음을 선택하세요.image:icon-settings-option.png["웹 콘솔의 오른쪽 상단에 표시되는 설정 아이콘입니다."] > *ID 및 액세스 관리*.
+.. 조직 페이지에서 계정 ID를 찾아 복사하세요.
++
+계정 ID가 나열되지 않고 조직 ID만 있는 경우 조직 ID의 처음 8자를 복사하여 *account-*에 추가합니다.
+
++
+예를 들어, 이것이 귀하의 조직 ID인 경우:
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+귀하의 계정 ID는 다음과 같습니다.
+
++
+계정-ea10e1c6
+
+
+
+. 에 Sign in https://mysupport.netapp.com["NetApp 지원 사이트"^] *시스템 > 소프트웨어 라이선스*를 선택하세요.
+. 라이선스의 일련번호를 입력하세요.
+. *라이선스 키* 열에서 * NetApp 라이선스 파일 가져오기*를 선택합니다.
+. 콘솔 계정 ID를 입력하세요(지원 사이트에서는 이를 테넌트 ID라고 합니다). 그리고 *제출*을 선택하여 라이선스 파일을 다운로드하세요.
+
 
 
 
 == 라이센스 추가
 
-<stdin>에 해결되지 않은 지시어 - include::_include/task-add-license.adoc[]
+라이선스와 연결된 NetApp 콘솔 계정이 NetApp 지원 사이트 계정이기도 하고 인터넷 접속이 가능한 경우, 라이선스 정보는 **라이선스 및 구독** 섹션에 자동으로 표시됩니다.  NSS 계정과 연결되지 않은 콘솔 계정을 사용한 경우 라이선스를 수동으로 추가해야 합니다.
+
+콘솔에서 일련 번호와 관련 NSS 계정을 입력하거나 NetApp 라이선스 파일(NLF)을 업로드하여 라이선스를 추가할 수 있습니다.  콘솔에 인터넷 접속이 없는 경우(개인 모드 설치) 업로드하려면 NetApp 라이선스 파일을 얻어야 합니다.
+
+NetApp 영업 담당자로부터 라이선스를 구매하면 NetApp 일련 번호와 추가 라이선스 세부 정보가 포함된 이메일을 보냅니다.  콘솔에서 해당 라이센스를 추가하거나 업데이트하려면 해당 일련 번호가 필요합니다.
+
+
+NOTE: 일련번호를 입력하려면 먼저 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["콘솔에 NetApp 지원 사이트 계정을 추가합니다."^] .  이는 일련 번호에 액세스할 수 있는 권한이 있는 NetApp 지원 사이트 계정입니다.
+
+.단계
+. NetApp 콘솔 메뉴에서 *거버넌스 > 라이선스 및 구독*을 선택한 다음 *직접 라이선스* 탭을 선택합니다.
+. *라이선스 추가*를 선택하세요.
+. *라이선스 추가* 대화 상자에서 라이선스 정보를 입력하고 *라이선스 추가*를 선택합니다.
++
+** 일련 번호가 있고 NSS 계정을 알고 있다면 *일련 번호 입력*을 선택하고 해당 정보를 입력하세요.
++
+일련 번호를 입력한 경우 일련 번호에 액세스할 권한이 있는 NetApp 지원 사이트 계정도 선택해야 합니다.
+
++
+드롭다운 목록에서 NetApp 지원 사이트 계정을 사용할 수 없는 경우 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["콘솔에 NSS 계정 추가"^]
+
+** 라이선스 파일(개인 모드에서 NetApp 콘솔을 사용할 때 필요함)이 있는 경우 *라이선스 파일 업로드* 옵션을 선택하고 메시지에 따라 파일을 첨부하세요.
+
+
+
 
 
 
 == 라이센스 업데이트
 
-<stdin>에 해결되지 않은 지시어 - include::_include/task-update-license.adoc[]
+콘솔은 라이선스 기간이 만료되거나 라이선스 용량이 한도에 도달하면 알려줍니다.  NetApp 데이터 서비스나 Cloud Volumes ONTAP 중단되는 것을 방지하려면 라이선스가 만료되기 전에 업데이트하세요.
+
+NetApp 에서 추가 용량을 구매하거나 라이선스 기간을 연장한 후 두 가지 조건이 모두 충족되면 콘솔에서 라이선스가 자동으로 업데이트됩니다.
+
+* 귀하의 콘솔 계정은 NetApp 지원 사이트 계정과 연결되어 있습니다.
+* 콘솔에는 인터넷 접속이 가능합니다.
+
+
+콘솔 계정이 NSS 계정과 연결되어 있지 않거나 콘솔이 인터넷 접속 없이 개인 모드로 작동하는 경우 라이선스를 수동으로 업데이트해야 합니다.
+
+다음 두 가지 방법 중 하나를 사용하여 라이선스를 수동으로 업데이트할 수 있습니다.
+
+* 일련 번호와 관련 NSS 계정을 입력하세요.
+* NetApp 라이선스 파일(또는 Cloud Volumes ONTAP HA 쌍에 대한 파일)을 업로드합니다.
+
+
+NetApp 영업 담당자로부터 라이선스를 구매하면 일련 번호와 라이선스 세부 정보가 포함된 이메일을 받게 됩니다.  이 일련번호를 사용하여 라이센스를 업데이트하세요.
+
+
+NOTE: 일련번호를 입력하려면 먼저 https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html["콘솔에 NetApp 지원 사이트 계정을 추가합니다."^] .  이 NSS 계정은 일련 번호에 액세스할 수 있는 권한이 있어야 합니다.
+
+.단계
+. 새로운 라이선스를 구매하려면 NetApp 담당자에게 문의하세요.
++
+결제를 완료하고 라이센스가 NetApp 지원 사이트에 등록되면 콘솔에서 라이센스가 자동으로 업데이트됩니다.  *직접 라이선스* 페이지에는 5~10분 내에 변경 사항이 반영됩니다.
+
+. 콘솔에서 라이선스를 자동으로 업데이트할 수 없는 경우(예: 개인 모드에서 작동하는 경우) 지원 센터에서 NetApp 라이선스 파일을 받아 수동으로 업로드하세요.<<obtain-license,라이센스 파일을 얻는 방법을 알아보세요.>>
+. *직접 라이센스* 탭에서 다음을 선택하세요.image:icon-action.png["더 많은 아이콘"] 업데이트하려는 일련번호에 대해 *라이선스 업데이트*를 선택하세요.
+. *라이선스 업데이트* 페이지에서 라이선스 파일을 업로드하고 *라이선스 업데이트*를 선택합니다.
+
 
 
 

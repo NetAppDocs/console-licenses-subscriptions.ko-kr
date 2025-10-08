@@ -9,7 +9,7 @@ settings:
   langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: 라이센스 및 구독 문서
+  - title: 라이선스 및 구독 문서
     url: "/index.html"
   - title: 릴리스 노트
     entries:
@@ -18,7 +18,7 @@ sidebar:
   - title: 시작하기
     entries:
     - title: 에 대해 알아보세요
-      url: "/concept-digital-wallet.html"
+      url: "/concept-licenses-subscriptions.html"
   - title: 라이센스 및 구독 사용
     entries:
     - title: 개요 대시보드 사용
