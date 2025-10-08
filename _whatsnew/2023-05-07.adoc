@@ -6,7 +6,7 @@
 
 === Google Cloud 비공개 제안
 
-BlueXP digital wallet 이제 비공개 제안과 관련된 Google Cloud Marketplace 구독을 식별하고 구독의 종료 날짜와 기간을 표시합니다.  이 향상된 기능을 사용하면 비공개 제안을 성공적으로 수락했는지 확인하고 해당 조건을 검증할 수 있습니다.
+BlueXP digital wallet 이제 비공개 제안과 관련된 Google Cloud Marketplace 구독을 식별하고 구독의 종료 날짜와 기간을 표시합니다. 이 향상된 기능을 사용하면 비공개 제안을 성공적으로 수락했는지 확인하고 해당 조건을 검증할 수 있습니다.
 
 
 

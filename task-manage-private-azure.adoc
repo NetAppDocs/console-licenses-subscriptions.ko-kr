@@ -14,7 +14,7 @@ summary: AWS, Azure, Google Cloud에 대한 일반 및 하이퍼스케일러별 
 
 
 [role="lead"]
-Azure Portal에서 NetApp Console 에 대한 Marketplace 비공개 제안을 수락하고 구독하세요.  콘솔에서 Azure 자격 증명을 구성합니다.
+Azure Portal에서 NetApp Console 에 대한 Marketplace 비공개 제안을 수락하고 구독하세요. 콘솔에서 Azure 자격 증명을 구성합니다.
 
 .시작하기 전에
 * NetApp 영업팀과 협력하여 Azure Billing ID에 대한 비공개 제안을 만드세요.
@@ -36,7 +36,7 @@ Azure Portal에서 NetApp Console 에 대한 Marketplace 비공개 제안을 수
 
 == Azure Portal에서 비공개 제안을 수락하고 구독하세요.
 
-Azure 구독은 하나의 Marketplace 구독에만 연결될 수 있습니다. 동일한 Azure 구독의 워크로드에 대해 두 개의 다른 Marketplace 구독을 사용하려면 각 구독에 대해 하나씩, 두 개의 별도 Console 계정을 만들어야 합니다.  여러 개의 Cloud Volumes ONTAP 인스턴스가 있고 여러 구독에 걸쳐 청구를 분할하려면 각 구독에 대해 별도의 콘솔 계정을 만듭니다.
+Azure 구독은 하나의 Marketplace 구독에만 연결될 수 있습니다. 동일한 Azure 구독의 워크로드에 대해 두 개의 다른 Marketplace 구독을 사용하려면 각 구독에 대해 하나씩, 두 개의 별도 Console 계정을 만들어야 합니다. 여러 개의 Cloud Volumes ONTAP 인스턴스가 있고 여러 구독에 걸쳐 청구를 분할하려면 각 구독에 대해 별도의 콘솔 계정을 만듭니다.
 
 [IMPORTANT]
 ====

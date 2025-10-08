@@ -13,7 +13,7 @@ summary: AWS, Azure, Google Cloud에 대한 일반 및 하이퍼스케일러별 
 
 
 [role="lead"]
-Google Cloud 콘솔의 NetApp Console 목록에 대한 마켓플레이스 비공개 제안을 수락합니다.  콘솔에서 Google Cloud 자격 증명을 구성합니다.
+Google Cloud 콘솔의 NetApp Console 목록에 대한 마켓플레이스 비공개 제안을 수락합니다. 콘솔에서 Google Cloud 자격 증명을 구성합니다.
 
 .시작하기 전에
 * NetApp 영업팀과 협력하여 비공개 제안을 작성하세요. 귀하의 영업팀에서 귀하에게 제공 링크를 제공해야 합니다.
