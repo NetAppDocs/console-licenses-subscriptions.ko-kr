@@ -51,8 +51,6 @@ sidebar:
         url: "/concept-billing-preferences.html"
       - title: 청구 환경 설정 관리
         url: "/task-manage-billing-preferences.html"
-      - title: 용어 및 정의
-        url: "/concept-billing-preferences-terms.html"
     - title: 지식과 지원
       entries:
       - title: 지원 등록
