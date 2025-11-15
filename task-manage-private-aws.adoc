@@ -119,4 +119,4 @@ AWS 콘솔에서 NetApp Console 대한 Marketplace 비공개 제안을 수락하
 . 여러 하이퍼스케일러에 걸쳐 여러 구독이 있는 경우 필요에 따라 이 단계를 반복합니다.
 
 
-마켓플레이스 구독 및 직접 라이선스 청구에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["청구 환경 설정 문서"] .
+마켓플레이스 구독 및 직접 라이선스 청구에 대한 자세한 내용은 다음을 참조하세요. link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["청구 환경 설정 문서"].

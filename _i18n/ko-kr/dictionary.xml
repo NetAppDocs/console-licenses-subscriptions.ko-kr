@@ -844,7 +844,6 @@
   <block id="9fd469469f54b4e3870fda1513aae9b4" category="paragraph">== 일반적인 구성 경로 | 시나리오 | 권장 청구 옵션 | |-----------|-----------------------------| | 구매한 NetApp 용량 사용 | NetApp 라이선스 먼저 | | 마켓플레이스 계약만 사용 | 마켓플레이스 구독만 | | 하나의 클라우드 공급자에서 여러 프로젝트에 청구 | 사용자 지정 CVO 구성 활성화 | | 기본 청구로 되돌리기 | 사용자 지정 CVO 구성 비활성화 |</block>
   <block id="9881eb87c4c1f6e3415d4a31b78cc0b8" category="summary">라이선스와 구독이 NetApp Console 직접 라이선스, 클라우드 마켓플레이스 계약 및 NetApp Keystone 에서 사용, 청구 및 갱신을 관리하는 방식을 정의하는 방법을 알아보세요.</block>
   <block id="f94c83bcf4a8ed377dfb56f9bda7f82c" category="doc">라이선스 및 구독에 대한 청구 기본 설정에 대해 알아보세요</block>
-  <block id="599c9b0b724ff40d712e8b1a323b8f8d" category="paragraph">청구 기본 설정은 조직의 활성 라이선스 및 구독에 대한 결제, 송장 및 갱신 동작을 처리하는 방법을 결정합니다.  이러한 기본 설정을 전역적으로 적용하여 조직 내의 모든 청구 관계에 영향을 미치거나, 특정 계약에 별도의 구성이 필요한 경우 개별 구독 수준에서 영향을 미칠 수 있습니다.</block>
   <block id="8dc8efc61c3e8d351d2761bd0cd8d331" category="list-text">*마켓플레이스 구독*은 클라우드 마켓플레이스 계약(AWS, Azure 또는 Google Cloud)에 해당하며, 사용 요금은 하이퍼스케일러 계정을 통해 부과됩니다.</block>
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">*직접 라이선스*는 NetApp 에서 직접 구매한 라이선스를 나타내며, 라이선스 키, 송장 수신자, 갱신 옵션을 통해 NetApp Console 에서 관리됩니다.</block>
   <block id="40ed87604c1cdf10c1530d65c122c3f4" category="paragraph">조달 모델에 따라 조직에서 서비스를 할당하고 비용을 지불하는 방식을 구성할 수 있습니다.</block>
@@ -854,7 +853,6 @@
   <block id="16595df5a4605390cff6c818f3223d5e" category="paragraph">청구 기본 설정을 통해 사용 요금과 갱신이 올바르게 적용되도록 할 수 있습니다.  이를 올바르게 구성하면 청구 분쟁이 줄어들고 NetApp 자체 용량과 마켓플레이스에서 구매한 용량을 결합한 하이브리드 라이선스 모델을 더 쉽게 관리할 수 있습니다.</block>
   <block id="6da4e5f2a97800c29881b3e6f807c9f9" category="paragraph">예를 들어, 글로벌 청구 기본 설정을 통해 청구서 연락처 목록을 통합하여 모든 서비스에서 단일 청구 관리자를 공유할 수 있습니다.  비용 센터 태그를 사용하면 부서나 지역 간 사용량을 정렬하고, 자동 갱신을 활성화하여 서비스 중단을 방지할 수도 있습니다.  새로운 Cloud Volumes ONTAP (CVO) 배포는 여기서 정의한 청구 모드를 자동으로 상속하므로 새로운 시스템이 추가되어도 조직의 요금 청구 모델이 일관되게 유지됩니다.</block>
   <block id="6b5482849442a1db8a7dc9641fdb0267" category="paragraph">청구 기본 설정은 NetApp Console 의 * Licenses and subscriptions * 섹션에서 구성됩니다.</block>
-  <block id="26529241099f54472cd2ec577f895a28" category="paragraph">여기에서 다음을 수행할 수 있습니다. - 조직의 청구 기본 설정 지정 - 고급 매핑을 위한 사용자 지정 CVO 구성 활성화 - 마켓플레이스 구독 세부 정보 편집 또는 업데이트</block>
   <block id="a4ca5edd20d0b5d502ebece575681f58" category="section-title">전지</block>
   <block id="e662217eb22f6b7b966f1ed07411a3dd" category="paragraph">청구 필드는 각 라이선스 또는 구독의 청구 방법에 대한 메타데이터를 저장합니다.  이러한 정보는 누구에게 청구되는지, 갱신이 어떻게 이루어지는지, 각 서비스가 속한 계정이나 비용 센터가 무엇인지 설명합니다.</block>
   <block id="5ea0317322a30367980e8c9bc0ba1526" category="section-title">마켓플레이스 필드</block>
@@ -943,15 +941,20 @@
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">2025년 11월 10일</block>
   <block id="8db289a22d511fb89896cd05e3039ca2" category="sidebar">청구 기본 설정에 대해 알아보세요</block>
   <block id="0b4efcd7fda8e806d38bca8ddb9e57b9" category="list-text">NetApp Console 메뉴에서 *관리 &gt; Licenses and subscriptions*을 선택한 다음 *직접 라이선스* 탭을 선택합니다.</block>
-  <block id="9c279367f9689e87b3033ad9104199ca" category="paragraph">자세한 내용은 .을 참조하세요.<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block></block>
   <block id="9ef810f213faea9695f8494f68387049" category="list-text">NetApp Console 메뉴에서 *관리 &gt; Licenses and subscriptions*을 선택합니다.</block>
   <block id="bb6a3f5790fd10ced1f6845ea4d3ba04" category="paragraph">NetApp Console 에서 청구 기본 설정을 구성하고 관리하여 용량 사용량, 갱신 및 송장이 조직 계정에 적용되는 방식을 제어할 수 있습니다. 청구 기본 설정은 사용 요금이 NetApp 라이선스, 클라우드 마켓플레이스 계약 또는 Keystone 계약 중 어디에서 발생하는지 결정합니다.</block>
   <block id="9b2143cc5779100e7a55ef93f5906f84" category="list-text">NetApp Console 에서 *관리 &gt; Licenses and subscriptions*을 선택합니다.</block>
   <block id="42855d09afacbcf14c2e402fe229af93" category="list-text">*클라우드 프로젝트*</block>
   <block id="7122970c90188deca8583df3506aa39c" category="list-text">콘솔 메뉴에서 *관리* &gt; * Licenses and subscriptions*을 선택한 다음 *직접 라이선스* 탭을 선택합니다.</block>
   <block id="13ad11ec7b9bd0fe7c52fc12e83f93d4" category="list-text">여러 하이퍼스케일러에 걸쳐 여러 구독이 있는 경우 필요에 따라 이 단계를 반복합니다.</block>
-  <block id="652e4824afa6b50187425c72ff981fe6" category="paragraph">마켓플레이스 구독 및 직접 라이선스 청구에 대한 자세한 내용은 다음을 참조하세요.<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block> .</block>
   <block id="dce3a4835fb0cd80cf119820cc31f008" category="list-text"><block ref="dce3a4835fb0cd80cf119820cc31f008" category="inline-link-rx"></block></block>
   <block id="ba181f9b0a33d0306573d0de387efad4" category="list-text"><block ref="ba181f9b0a33d0306573d0de387efad4" category="inline-link-rx"></block></block>
   <block id="7effa26776dad56a362038eae76fd1d8" category="list-text">NetApp Console 메뉴에서 *관리 &gt; Licenses and subscriptions*을 선택합니다.</block>
+  <block id="3c3236b09e81f9868cfa639ca1fbe105" category="paragraph">자세한 내용은 다음을 참조하세요.<block ref="5cdc12ff92d7ca20af8e5de10fe76183" category="inline-link-macro-rx"></block> .</block>
+  <block id="0bbe14145d06970fb76480d91f62735d" category="paragraph">청구 기본 설정을 통해 활성 라이선스 및 구독에 대한 결제 및 갱신 동작을 처리하는 방법을 결정할 수 있습니다. 이러한 기본 설정을 전역적으로 적용하여 모든 청구 관계에 영향을 미치거나, 특정 계약에 별도의 구성이 필요한 경우 개별 구독 수준에서 적용할 수 있습니다.</block>
+  <block id="7167322ea9975145e470debb0dd9682c" category="paragraph">여기에서 다음을 수행할 수 있습니다.</block>
+  <block id="c612120099cf9dd3f393ed9419ca02db" category="list-text">조직의 청구 기본 설정 지정</block>
+  <block id="2d71cedb2928350b6ef9e9d588d51e0d" category="list-text">고급 매핑을 위한 사용자 정의 CVO 구성 활성화</block>
+  <block id="65bc511f5575c8f9267c515646eb9fa8" category="list-text">마켓플레이스 구독 세부 정보 편집 또는 업데이트</block>
+  <block id="821825341ee77cae5e1bfc15788cb576" category="paragraph">마켓플레이스 구독 및 직접 라이선스 청구에 대한 자세한 내용은 다음을 참조하세요. <block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block>.</block>
 </blocks>
