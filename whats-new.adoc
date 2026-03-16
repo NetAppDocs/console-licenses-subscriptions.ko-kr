@@ -38,7 +38,7 @@ NetApp Console 라이선스 및 구독의 새로운 소식을 알아보세요.
 
 강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp Console 엔터프라이즈급 온프레미스 및 클라우드 환경에서 NetApp 스토리지와 NetApp Data Services 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.
 
-변경된 사항에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp Console 릴리스 노트"] .
+변경 사항에 대한 자세한 내용은 link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console 릴리스 노트"]을 참조하십시오.
 
 
 
@@ -154,7 +154,7 @@ BlueXP digital wallet 이제 비공개 제안과 관련된 Google Cloud Marketpl
 
 알림 설정을 구성하면 BYOL 라이선스가 만료되려고 할 때(경고 알림) 또는 이미 만료되었을 때(오류 알림) 이메일 알림을 받을 수 있습니다.
 
-https://docs.netapp.com/us-en/consosetup-admin/task-monitor-cm-operations.html["이메일 알림을 설정하는 방법을 알아보세요"^]
+https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html["이메일 알림을 설정하는 방법을 알아보세요"^]
 
 
 

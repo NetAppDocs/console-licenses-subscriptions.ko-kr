@@ -47,9 +47,9 @@ https://docs.netapp.com/us-en/console-setup-admin/task-adding-nss-accounts.html[
 
 콘솔에서 다음 서비스에 대한 라이선스와 구독을 관리할 수 있습니다.
 
-* https://docs.netapp.com/us-en/console-backup-recovery/index.html["백업 및 복구"^]
-* https://docs.netapp.com/us-en/console-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/console-disaster-recovery/index.html["재해 복구"^](BYOL만 해당)
-* https://docs.netapp.com/us-en/console-ransomware-protection/index.html["랜섬웨어 복원력"^]
-* https://docs.netapp.com/us-en/console-tiering/index.html["클라우드 티어링"^]
+* https://docs.netapp.com/us-en/data-services-backup-recovery/index.html["백업 및 복구"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/data-services-disaster-recovery/index.html["재해 복구"^] (BYOL만 해당)
+* https://docs.netapp.com/us-en/data-services-ransomware-resilience/index.html["랜섬웨어 복원력"^]
+* https://docs.netapp.com/us-en/data-services-cloud-tiering/index.html["클라우드 티어링"^]
 
