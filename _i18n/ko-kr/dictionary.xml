@@ -481,14 +481,12 @@
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link">직접 검색된 클러스터를 관리하는 방법을 알아보세요.</block>
   <block id="e82c60430ac236acfc954acd22ea737d" category="list-text"><block ref="e82c60430ac236acfc954acd22ea737d" category="inline-link-rx"></block></block>
   <block id="9248cc8bc8852d71cca7f73f6d36eea5" category="doc">NetApp Console 대한 AWS Marketplace 비공개 제안을 수락하고 구성합니다.</block>
-  <block id="ff13fa6d7bc903be5ecf4d041ce5aa5c" category="paragraph">AWS 콘솔에서 NetApp Console 대한 Marketplace 비공개 제안을 수락하고 콘솔에서 AWS 자격 증명을 구성합니다.</block>
   <block id="e42fe00103b11c26a130efa909bb5a84" category="list-text">NetApp 판매팀과 협력하여 비공개 제안을 만들고 활성화 링크를 받으세요.</block>
   <block id="514210ca19d963f85ab4ed1d6e72df32" category="list-text">필요한 AWS Marketplace 권한이 있는지 확인하세요.</block>
   <block id="9b0cad6850cfb6b3550c8a17e7be435b" category="inline-link-macro">비공개 제안 보기 및 구독</block>
   <block id="c3f1185d398ba0919b1e1de888c27261" category="list-text"><block ref="c3f1185d398ba0919b1e1de888c27261" category="inline-link-macro-rx"></block></block>
   <block id="eddabc606d42f919a6957cf8c062b45b" category="inline-link-macro">구매자 권한 검증</block>
   <block id="5669e814cce268752252c43ffbb097b9" category="list-text"><block ref="5669e814cce268752252c43ffbb097b9" category="inline-link-macro-rx"></block></block>
-  <block id="09d9df0afa016eba24d822b0fab07ad9" category="section-title">AWS 콘솔에서 비공개 제안 수락</block>
   <block id="01fe1bcb4f23578a5739afabaf15081c" category="paragraph">구매를 활성화하고 할인된 가격을 적용하려면 콘솔에서 구독 할당을 완료해야 합니다.</block>
   <block id="5277c9848e0bbe319cb5f8129fe4c77b" category="paragraph">비공개 제안을 활성화하려면 모든 단계를 완료해야 합니다. 단계를 건너뛰면 청구 오류가 발생할 수 있습니다. 해당 제안을 여러 번 수락하고 활성화하면 요금이 두 배로 청구됩니다.</block>
   <block id="69ab7cbfb20290fc5a153bd4d1e77e2d" category="list-text">NetApp 영업팀의 비공개 제안 활성화 링크를 클릭하세요. 링크는 다음과 비슷하게 보여야 합니다.<block ref="e8da69261a2e7defb7c8e446536dda38" prefix=" " category="inline-code"></block></block>
@@ -513,11 +511,8 @@
   <block id="20d4f676d944ace93b6fd5ea20a1cd60" category="list-text">수락 후, 배너에서 구독을 확인하고 등록 지침을 제공합니다.</block>
   <block id="9a964a2e84212b282e85422fa8a70544" category="list-text">*계정 설정*을 클릭하세요. 이렇게 하면 NetApp Console 로 리디렉션되어 구독을 구성할 수 있습니다.</block>
   <block id="45a07e7bbaedb6a22c302c7002488d2a" category="paragraph">제안을 수락했지만 등록을 완료하지 않은 경우 제품 페이지로 돌아가세요. 계약 목록을 보려면 *구매 옵션 보기*를 클릭하여 제안을 표시한 다음 *계정 설정*을 선택하세요.</block>
-  <block id="2e64edfe7c5204394d8441cd657b2892" category="list-text">Sign in<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block> 콘솔 계정을 사용하세요.</block>
   <block id="5e1b8f033801f9e6066729a408b4da2f" category="list-text">로그인 후 다음으로 이동합니다.<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block> . 다음 메시지가 표시됩니다.</block>
   <block id="e6927100ca6999c8078a1524ea9d9039" category="list-text">마켓플레이스 구독에 대한 *표시 이름*을 입력하세요.</block>
-  <block id="2cd221344150a3626a43e90a5a658fe9" category="list-text">구독에 액세스할 수 있는 콘솔 *계정*을 선택하세요.</block>
-  <block id="0d44bad6f11273328ea95f1f049c4238" category="list-text">[선택 사항] 기존 구독을 덮어쓰려면 *기존 구독 교체*를 활성화하세요.</block>
   <block id="75593b03eb6aef440911b04a96cd04dc" category="list-text">교체는 하나의 콘솔 계정에만 적용됩니다.</block>
   <block id="3de849c536c7d2a1b083f7cc3a929f1e" category="list-text">여러 계정을 동일한 구독에 연결하려면 추가 계정을 수동으로 구성하세요.</block>
   <block id="ac15313b1dc2741a5095bcc225efa2d9" category="list-text">자격 증명이 구독과 연결되지 않은 경우 다음 섹션에 설명된 대로 수동으로 연결하세요.</block>
@@ -555,8 +550,6 @@
   <block id="28aeb99ad7fa714f50ee0dba31b74247" category="list-text">당신은 다음으로 리디렉션됩니다<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block> 그리고 로그인하라는 메시지가 나타났습니다.</block>
   <block id="f0456057cee7cc1dd8dba0eea97afb99" category="list-text">로그인 후, 다음으로 이동됩니다.<block ref="3be513e91609cdd85c59f75b8b9c5275" category="inline-link-rx"></block> . 다음 메시지가 표시됩니다.</block>
   <block id="39adb4da3012b43be809229537dd4480" category="list-text">마켓플레이스 구독에 대한 *표시 이름*을 입력하세요.</block>
-  <block id="08203a12c0659c3a962694a2bedabdd2" category="list-text">이 구독에 액세스할 수 있는 콘솔 *계정*을 선택하세요.</block>
-  <block id="c971675f678da35b74e0d7fcf448705b" category="list-text">선택적으로 *기존 구독 교체*를 활성화하여 하나의 콘솔 계정에서 기존 Marketplace 구독을 자동으로 교체할 수 있습니다.</block>
   <block id="bdd177ac7c3a61f270d7d1424cc6bf1f" category="list-text">이 대체 옵션은 단일 콘솔 계정으로 제한됩니다.</block>
   <block id="d939375aaed073b9eac9e5beb4ba0a3b" category="list-text">여러 콘솔 계정을 동일한 마켓플레이스 구독에 연결하려면 추가 계정을 수동으로 구성하세요.</block>
   <block id="c9ca68f69753eaca0ec0228921c617fa" category="doc">NetApp Console 대한 Google Cloud 비공개 제안 수락 및 구성</block>
@@ -588,8 +581,6 @@
   <block id="e58b6bbe6eb23bea3dd1681ec6a9af11" category="list-text">당신은 다음으로 리디렉션됩니다<block ref="7c376aef5250afe71efcebf7a7a3f4b9" prefix=" " category="inline-code"></block> 그리고 로그인하라는 메시지가 나타났습니다.</block>
   <block id="58fd0c4f67d67b5379d45ee8a3db553f" category="list-text">로그인 후, 다음으로 이동됩니다.<block ref="24d15e59be383cd22c6b17c55af710c1" prefix=" " category="inline-code"></block> . 다음 작업을 수행해야 하는 팝업이 표시됩니다.</block>
   <block id="109deb83c524752969863db2154396e3" category="list-text">*SaaS 마켓플레이스 구독*에 대한 표시 이름을 입력하세요.</block>
-  <block id="98a69ff93ac7f606e9ffc0f0ad3c2be6" category="list-text">구독에 액세스할 수 있는 콘솔 **계정**을 선택하세요.</block>
-  <block id="f42189975a0067b88050cff9b07f38b3" category="list-text">선택적으로, 하나의 콘솔 계정에서 기존 Marketplace 구독을 자동으로 교체하려면 **기존 구독 교체**를 활성화할 수 있습니다.</block>
   <block id="35a234d8ec57d77057c7e83dd833a391" category="list-text">여러 콘솔 계정을 동일한 마켓플레이스 구독에 연결해야 하는 경우 추가 계정을 수동으로 구성해야 합니다.</block>
   <block id="c38a5b5bc8ce7c5e70620128d5b70df7" category="summary">클라우드 공급업체의 마켓플레이스에서 NetApp 데이터 서비스( Cloud Volumes ONTAP 포함)를 구독하세요.</block>
   <block id="b01b1be092b95233172f870dc729234b" category="doc">PAYGO 구독 및 계약 관리</block>
@@ -974,4 +965,13 @@
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">이는 시스템에서 생성된 ID로, 사용자의 이메일 주소와 연결됩니다. *NSS 관리* 페이지의 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 메뉴에서 사용자의 이메일 주소를 확인할 수 있습니다.</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">로그인 자격 증명 토큰을 갱신해야 하는 경우 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 메뉴에 *자격 증명 업데이트* 옵션이 있습니다.</block>
   <block id="3ac14e8b0ff8be035f2bf4d15b62a698" category="paragraph"><block ref="3ac14e8b0ff8be035f2bf4d15b62a698" category="inline-link-rx"></block></block>
+  <block id="b14c8f714ab9df1d8bf0b8e0b5be9075" category="summary">AWS 마켓플레이스 포털에서 NetApp Console에 대한 Marketplace 비공개 오퍼를 수락하고 Console에서 AWS 자격 증명을 구성하십시오.</block>
+  <block id="e3edb6d6eefa6e26fd7d233d36622506" category="section-title">AWS Marketplace Portal에서 비공개 제안을 수락하세요</block>
+  <block id="539df6295a1f72f1a6ce9c01b447ccfd" category="list-text">Sign in 하려면<block ref="192e1e8ec4744462f8aaecd68949f9c6" category="inline-link-rx"></block>로 이동하세요.</block>
+  <block id="2ef69aab27aad02b09bd9c1e01dfe293" category="list-text">구독에 대한 액세스 권한이 있는 Console *Organization*을 선택하십시오.</block>
+  <block id="aa9da6403204546dcd3c3b41bda594eb" category="list-text">[선택 사항] 조직의 기존 구독을 덮어쓰려면 *기존 구독 바꾸기* 를 활성화하세요.</block>
+  <block id="7df82bbcc877cc7b0ae3f358c7acd1ee" category="list-text">이 구독에 대한 액세스 권한을 부여할 Console *Organizations*을 선택하십시오.</block>
+  <block id="6b19be00318068639bb55171c38824da" category="list-text">선택적으로, *기존 구독 교체*를 활성화하여 하나의 Console 조직에서 기존 Marketplace 구독을 자동으로 교체할 수 있습니다.</block>
+  <block id="f6a3d6466a9b3dd0a42a2d2b4b3377a6" category="list-text">구독에 대한 액세스 권한을 부여할 Console *Organizations*를 선택하십시오.</block>
+  <block id="abd213f6c87bacca6bcd08de8ac36571" category="list-text">선택적으로, 하나의 Console 조직에서 기존 Marketplace 구독을 자동으로 교체하려면 **기존 구독 교체**를 활성화할 수 있습니다.</block>
 </blocks>

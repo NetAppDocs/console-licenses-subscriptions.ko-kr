@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-private-aws.html 
 keywords: activate, license, licensing, install, request capacity, link subscription, keystone flex, bluexp, netapp console, marketplace, aws 
-summary: AWS 콘솔에서 NetApp Console 대한 Marketplace 비공개 제안을 수락하고 콘솔에서 AWS 자격 증명을 구성합니다. 
+summary: AWS 마켓플레이스 포털에서 NetApp Console에 대한 Marketplace 비공개 오퍼를 수락하고 Console에서 AWS 자격 증명을 구성하십시오. 
 ---
 = NetApp Console 대한 AWS Marketplace 비공개 제안을 수락하고 구성합니다.
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: AWS 콘솔에서 NetApp Console 대한 Marketplace 비공개 제안을 
 
 
 [role="lead"]
-AWS 콘솔에서 NetApp Console 대한 Marketplace 비공개 제안을 수락하고 콘솔에서 AWS 자격 증명을 구성합니다.
+AWS 마켓플레이스 포털에서 NetApp Console에 대한 Marketplace 비공개 오퍼를 수락하고 Console에서 AWS 자격 증명을 구성하십시오.
 
 .시작하기 전에
 * NetApp 판매팀과 협력하여 비공개 제안을 만들고 활성화 링크를 받으세요.
@@ -28,7 +28,7 @@ AWS 콘솔에서 NetApp Console 대한 Marketplace 비공개 제안을 수락하
 
 
 
-== AWS 콘솔에서 비공개 제안 수락
+== AWS Marketplace Portal에서 비공개 제안을 수락하세요
 
 구매를 활성화하고 할인된 가격을 적용하려면 콘솔에서 구독 할당을 완료해야 합니다.
 
@@ -93,12 +93,12 @@ AWS 콘솔에서 NetApp Console 대한 Marketplace 비공개 제안을 수락하
 제안을 수락했지만 등록을 완료하지 않은 경우 제품 페이지로 돌아가세요. 계약 목록을 보려면 *구매 옵션 보기*를 클릭하여 제안을 표시한 다음 *계정 설정*을 선택하세요.
 
 ====
-. Sign in https://console.netapp.com[] 콘솔 계정을 사용하세요.
+. Sign in 하려면 https://console.netapp.com[]로 이동하세요.
 . 로그인 후 다음으로 이동합니다. https://console.netapp.com/licenses/overview[] . 다음 메시지가 표시됩니다.
 +
 .. 마켓플레이스 구독에 대한 *표시 이름*을 입력하세요.
-.. 구독에 액세스할 수 있는 콘솔 *계정*을 선택하세요.
-.. [선택 사항] 기존 구독을 덮어쓰려면 *기존 구독 교체*를 활성화하세요.
+.. 구독에 대한 액세스 권한이 있는 Console *Organization*을 선택하십시오.
+.. [선택 사항] 조직의 기존 구독을 덮어쓰려면 *기존 구독 바꾸기* 를 활성화하세요.
 +
 [NOTE]
 ====
