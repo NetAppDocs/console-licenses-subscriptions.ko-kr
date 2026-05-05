@@ -1,0 +1,5 @@
+= 
+:allow-uri-read: 
+
+
+*필수 Console 역할* 이 작업을 수행하려면 Licenses and subscriptions 관리자 역할이 필요합니다link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-licenses-subscriptions.html["NetApp Console용 Licenses and subscriptions 역할에 대해 알아보십시오"^]
