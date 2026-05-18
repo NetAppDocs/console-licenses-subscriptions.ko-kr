@@ -594,10 +594,6 @@
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">구독과 관련된 자격 증명 보기</block>
   <block id="002d431b6337f0842f2c8f341268a2ad" category="paragraph">*마켓플레이스 구독* 페이지에서 특정 구독에 대한 자격 증명을 볼 수 있습니다. 이를 통해 구독료가 어떻게 청구되는지 확인할 수 있습니다. 자격 증명은 사용 중인 에이전트에 연결되어 있으므로, 보려는 구독과 연결된 에이전트를 선택해야 합니다.</block>
   <block id="305572f28aa8e98572395f6c22011dee" category="admonition">필요한 경우 상단 탐색 모음에서 에이전트 드롭다운을 사용하여 에이전트를 전환하세요.</block>
-  <block id="5f2584f9079ec37953d08854e13410ab" category="section-title">구독 구성 해제</block>
-  <block id="3eeaae02c9959c91b45646bc49679ed8" category="paragraph">구독을 제거하려면 먼저 구독의 구성을 해제해야 합니다. 이렇게 하면 연관된 모든 데이터와 설정이 지워집니다.</block>
-  <block id="25f9b23bd620e2b7744e0ee585d450c4" category="list-text">지시에 따라 연관된 설정이나 데이터를 제거하거나 재설정하세요.</block>
-  <block id="c967e7e2ec19dfbde4242e266c145df0" category="list-text">상태가 *구성되지 않음*으로 업데이트될 때까지 기다리세요.</block>
   <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">구독 제거</block>
   <block id="f718d4efc769e352af879333b97563c1" category="list-text">제거하려는 구독 행에서 작업 메뉴를 열고 *제거*를 선택하세요.</block>
   <block id="6269943bbab503c57445a47b04897eaa" category="summary">NetApp 기술 지원에 지원 사례를 개설하려면 먼저 NetApp Console 에 NetApp 지원 사이트 계정을 추가한 다음 지원을 위해 등록해야 합니다.</block>
@@ -745,7 +741,6 @@
   <block id="fc7df403728dc99ac0c868da1b409680" category="list-text">*마켓플레이스 구독* - AWS Marketplace, Azure Marketplace 또는 Google Cloud Marketplace를 통해 청구됩니다.  클라우드 마켓플레이스에서 제공하는 청구 계정, 지역 및 갱신 옵션을 선택할 수 있습니다.</block>
   <block id="f9e1a1e0db42fa8cf2bef3c509a09c09" category="list-text">*직접 라이선스* - NetApp 통해 청구가 이루어집니다.  NetApp Console 에서 라이선스 키, 송장 연락처 및 자동 갱신을 관리합니다.</block>
   <block id="bc27ccb754d1eb812e4d84c6aa69941b" category="list-text">* Keystone 구독* — 청구는 Keystone 계약을 통해 이루어집니다.  NetApp Console 에서 송장 수신자와 비용 센터 태그를 관리합니다.</block>
-  <block id="6cf13260cfd390e66379c0ccf1393abc" category="paragraph">청구 환경 설정을 통해 다음을 수행할 수 있습니다. - 모든 서비스에서 단일 청구서 연락처 목록을 적용합니다. - 사용량을 비용 센터에 맞춥니다. - 자동 갱신 및 만료 알림을 관리합니다. - 새로운 Cloud Volumes ONTAP (CVO) 시스템이 올바른 청구 계정을 상속받도록 합니다.</block>
   <block id="9881eb87c4c1f6e3415d4a31b78cc0b8" category="summary">라이선스와 구독이 NetApp Console 직접 라이선스, 클라우드 마켓플레이스 계약 및 NetApp Keystone 에서 사용, 청구 및 갱신을 관리하는 방식을 정의하는 방법을 알아보세요.</block>
   <block id="f94c83bcf4a8ed377dfb56f9bda7f82c" category="doc">라이선스 및 구독에 대한 청구 기본 설정에 대해 알아보세요</block>
   <block id="1e7c5007c8aa004a99074c2a438cd957" category="list-text">*직접 라이선스*는 NetApp 에서 직접 구매한 라이선스를 나타내며, 라이선스 키, 송장 수신자, 갱신 옵션을 통해 NetApp Console 에서 관리됩니다.</block>
@@ -795,10 +790,7 @@
   <block id="0a6726bc9108e08ebb13bc6fe5a55e5b" category="list-text">다음 청구 모드 중 하나를 선택하세요.</block>
   <block id="18dd1fddbff47223752aa7cbe0ce2d30" category="list-text">* NetApp 라이선스를 먼저 사용하세요* – NetApp 라이선스를 먼저 사용한 다음, 추가 사용을 위해 마켓플레이스 구독을 사용하세요.</block>
   <block id="d25910c477ea028d9255a48945715553" category="list-text">*마켓플레이스 구독에만 해당* – 마켓플레이스 구독을 통해 모든 사용량을 직접 청구합니다.</block>
-  <block id="529449d891dd58043109a5fd2c03e18e" category="list-text">(선택 사항) *송장 연락처* 및 *알림 연락처*를 업데이트합니다.</block>
-  <block id="645717e077f5e3230fa79efe02fcea05" category="list-text">(선택 사항) 청구를 내부 회계 코드와 연결하려면 *비용 센터 태그*를 입력합니다.</block>
   <block id="302ef561e28f7d7cd13d1042cece78e1" category="list-text">*변경 사항 저장*을 선택하세요.</block>
-  <block id="108c7e8f13bbc93814f67368581b2ce0" category="list-text">메시지가 표시되면 확인 대화 상자를 검토하고 *확인*을 선택하세요.</block>
   <block id="17741aaf0ce5304ce281496e14f3c373" category="paragraph">NetApp Console 청구 매핑이 업데이트됩니다.  이후 서비스 요금 및 갱신은 이제 선택한 구성을 사용합니다.</block>
   <block id="77e323811c3d488cfff7cab6c2087d26" category="list-text">**변경 사항 저장**을 선택합니다.</block>
   <block id="c81a2ae0cc1277c522901ce2c6a4e502" category="section-title">마켓플레이스 구성 편집</block>
@@ -847,7 +839,6 @@
   <block id="cd2f258cff7669557a87899fd098b8d4" category="list-text">라이선스를 삭제하거나 구독을 해제합니다.</block>
   <block id="db4280836d027a94bc5834b179386124" category="cell">*뷰어*</block>
   <block id="1d2f900fae86a6b1fedf8da639320914" category="paragraph">이 역할을 가진 사용자는 읽기 전용 액세스 권한을 갖습니다. 시청자는 다음을 수행할 수 있습니다.</block>
-  <block id="eecec32a54a34e2a72e8e5f9f7f4f254" category="list-text">*관리자* 역할에 대한 액세스 권한이 있습니다.</block>
   <block id="0d598f94fd99fabd7c4e6f69c91456f9" category="list-text">*라이선스 및 구독*에 대한 기존 구성을 검토했습니다.</block>
   <block id="f1396f3668b9ac6ec69042ebd868ed35" category="list-text">업데이트를 적용하려면 *저장*을 선택하고, 삭제하려면 *취소*를 선택하세요.</block>
   <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">변경 사항에 대한 자세한 내용은 <block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
@@ -940,11 +931,9 @@
   <block id="57f1a9c697c3336df2c3c56d7ed47d29" category="list-text">**NETAPP, Inc.에 등록**을 선택하세요. NetApp Console로 리디렉션되어 구독 구성을 완료할 수 있습니다. 조직 내 다른 사람이 비공개 제안을 수락한 경우:</block>
   <block id="ff7bbf6dcffb4b3f08c291a764f18dfe" category="list-text">점 세 개 메뉴를 선택하고 **NetApp, Inc.에 등록**을 선택하세요.</block>
   <block id="69c9db700e88e13fa6be2001b38dfd08" category="list-text">연결하려는 구독 행에서 작업 메뉴를 열고 *Associate*를 선택합니다.</block>
-  <block id="b3cdc96c2b7de37edaa1cdfe112925ae" category="list-text">구성을 해제하려는 구독 행에서 작업 메뉴를 선택한 다음 *Unconfigure*를 선택합니다.</block>
   <block id="b36ceccfff88f5d9c684c4fec0f54c19" category="paragraph">이제 Digital Wallet에서 계정의 총 사용 용량과 라이선스 패키지별 사용 용량을 확인할 수 있습니다. 이를 통해 요금 청구 방식을 파악하고 추가 용량 구매가 필요한지 여부를 판단할 수 있습니다.</block>
   <block id="8af1ad3469dad38ef46da37595e3b758" category="inline-link-macro">NetApp Console용 Licenses and subscriptions 역할에 대해 알아보십시오</block>
   <block id="1ccb85040042290f711464fbb5e06609" category="paragraph">*필수 Console 역할* 이 작업을 수행하려면 Licenses and subscriptions 관리자 역할이 필요합니다<block ref="f7bfd1d1e66654a9d76ee2fffeede42a" category="inline-link-macro-rx"></block></block>
-  <block id="458dbbe908598c035d40c809863c56e8" category="paragraph">라이선스와 연결된 NetApp Console 계정이 NetApp Support Site 계정이기도 한 경우 **Licenses and subscriptions** 섹션에 라이선스 정보가 자동으로 표시됩니다. NSS 계정과 연결되지 않은 Console 계정을 사용한 경우에는 라이선스를 수동으로 추가해야 합니다.</block>
   <block id="e8287c7448cfd8625359581b1cb6deb2" category="list-text">*직접 라이센스* 탭을 선택합니다.</block>
   <block id="9c3e0ea557f19f47fe25dfd585312f43" category="list-text">Console의 탐색 메뉴에서 *Administration* &gt; *Identity and access*를 선택합니다.</block>
   <block id="b33d71b64d47a9f0ce606e73ae1e07dd" category="section-title">Cloud Volumes ONTAP 라이센스 관리</block>
@@ -983,4 +972,15 @@
   <block id="9475bf1acf4a7e43280f6718d685e866" category="list-text">구독 상태가 *구독 취소됨*인 구독만 삭제할 수 있습니다. 삭제하기 전에 관련 설정, 데이터 및 구성을 모두 지우거나 재설정해야 합니다.</block>
   <block id="c4a1705a6991448825c6ef6ad86fa41a" category="paragraph">구독이 아직 구성된 경우 *제거* 옵션을 사용할 수 없습니다.</block>
   <block id="792b1ad41ebb8947d008af5826897289" category="list-text">*구독 제거* 대화 상자에서 *제거*를 선택하여 구독을 제거할지 확인합니다.</block>
+  <block id="e1173ed8259895238ff1719be2f592d9" category="paragraph">라이선스와 연결된 NetApp Console 계정이 NetApp Support Site 계정이기도 하고 인터넷에 접속할 수 있는 경우, 라이선스 정보는 **Licenses and subscriptions** 섹션에 자동으로 표시됩니다. NSS 계정과 연결되지 않은 Console 계정을 사용한 경우에는 라이선스를 수동으로 추가해야 합니다.</block>
+  <block id="0b4c468a31ec1cc5bcf0295ee7207fbe" category="paragraph">결제 환경설정을 통해 다음을 수행할 수 있습니다.</block>
+  <block id="646cb6fbd19fdc7e05aa499e55fae69f" category="list-text">서비스 전반에 걸쳐 단일 청구서 연락처 목록을 적용하고,</block>
+  <block id="0c2e72ed135dc2fc54e1e457add77dd3" category="list-text">사용량을 비용 센터에 맞춰 조정하고,</block>
+  <block id="22524c2dd89ad7b3b2a7bbcfe12be88f" category="list-text">자동 갱신 및 만료 알림을 관리하고,</block>
+  <block id="99036810fbb5c064007679128c501df5" category="list-text">새로운 Cloud Volumes ONTAP(CVO) 시스템이 올바른 청구 계정을 상속받도록 합니다.</block>
+  <block id="343b348d71ccb62dd010813fc2a13a5e" category="list-text"><block ref="6002f1f030715bc59708cf8f1b924fe3" category="inline-link-macro-rx"></block>.</block>
+  <block id="259a94c9a9a486a09c1bd02fe5b547df" category="list-text"><block ref="9d10c472e1675ca6fce5c4e74a4b8028" category="inline-link-macro-rx"></block>.</block>
+  <block id="57f2b91dd5d64f1e869c7510450457ba" category="list-text">선택적으로 *Invoice contacts* 및 *Notification contacts*를 업데이트할 수 있습니다.</block>
+  <block id="c574b540cd92e579d0adb2549eb5e6ad" category="list-text">선택적으로 청구를 내부 회계 코드와 연결하기 위해 *Cost center tag*를 입력합니다.</block>
+  <block id="d1aa6173b8b0f269bcc23f11e54d8e9f" category="list-text">메시지가 표시되면 확인 대화 상자를 검토한 후 *확인*을 선택하십시오.</block>
 </blocks>
