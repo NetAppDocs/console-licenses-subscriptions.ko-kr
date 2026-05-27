@@ -51,14 +51,14 @@ sidebar:
         url: "/concept-billing-preferences.html"
       - title: 청구 환경 설정 관리
         url: "/task-manage-billing-preferences.html"
-    - title: 지식과 지원
-      entries:
-      - title: 지원 등록
-        url: "/task-support-registration.html"
-      - title: 도움을 받으세요
-        url: "/task-get-help.html"
-    - title: 법적 고지 사항
-      url: "/legal-notices.html"
+  - title: 지식과 지원
+    entries:
+    - title: 지원 등록
+      url: "/task-support-registration.html"
+    - title: 도움을 받으세요
+      url: "/task-get-help.html"
+  - title: 법적 고지 사항
+    url: "/legal-notices.html"
 product-family:
   name: NetApp Console
   repo: console-family
