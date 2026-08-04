@@ -28,6 +28,7 @@ AWS 마켓플레이스 포털에서 NetApp Console에 대한 Marketplace 비공�
 
 
 
+[[accept-the-private-offer-in-the-aws-marketplace-portal]]
 == AWS Marketplace Portal에서 비공개 제안을 수락하세요
 
 구매를 활성화하고 할인된 가격을 적용하려면 콘솔에서 구독 할당을 완료해야 합니다.

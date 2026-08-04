@@ -29,12 +29,14 @@ summary: Licenses and subscriptions를 사용하면 NetApp Console 라이센스,
 
 
 
+[[permissions]]
 == 권한
 
 결제 설정을 변경하려면 *Account Admin* 또는 *Billing Admin* 역할이 필요합니다. Operators는 설정을 볼 수는 있지만 수정할 수는 없습니다.
 
 
 
+[[set-billing-preferences]]
 == 청구 환경 설정
 
 결제 환경설정을 통해 다음을 수행할 수 있습니다.
@@ -47,10 +49,12 @@ summary: Licenses and subscriptions를 사용하면 NetApp Console 라이센스,
 
 
 
+[[billing-fields]]
 == 청구 필드
 
 
 
+[[marketplace-fields]]
 == 마켓플레이스 필드
 
 * *Marketplace 공급자* — AWS, Azure 또는 Google Cloud.
@@ -60,10 +64,12 @@ summary: Licenses and subscriptions를 사용하면 NetApp Console 라이센스,
 
 
 
+[[billing-options-and-definitions]]
 == 청구 옵션 및 정의
 
 
 
+[[terms-and-options]]
 == 약관 및 옵션
 
 * **NetApp 라이선스 우선** — 활성 NetApp 라이선스를 기준으로 요금이 청구됩니다. 추가 사용량은 마켓플레이스로 전환됩니다.
@@ -79,6 +85,7 @@ summary: Licenses and subscriptions를 사용하면 NetApp Console 라이센스,
 
 
 
+[[typical-configuration-paths]]
 == 일반적인 구성 경로
 
 |===

@@ -10,6 +10,8 @@ summary: 콘솔의 개요 대시보드에서 조직의 모든 구독 및 라이�
 
 
 
+[[use-the-dashboard-overview]]
+[[overview-page]]
 == 대시보드 개요 사용
 
 [role="lead"]
@@ -21,6 +23,7 @@ Licenses and subscriptions 대시보드는 다가오는 용량 제한 또는 만
 
 
 
+[[view-details-about-a-specific-data-service]]
 === 특정 데이터 서비스에 대한 세부 정보 보기
 
 *개요* 대시보드는 다음 서비스에 대한 세부 정보를 제공합니다.
@@ -61,6 +64,7 @@ link:task-manage-data-services-licenses.html["라이선스 관리에 대해 자�
 
 
 
+[[resolve-license-or-subscription-issues]]
 === 라이센스 또는 구독 문제 해결
 
 개요 대시보드에서 해결해야 할 라이선스 및 구독 문제를 확인할 수 있습니다. 문제에는 만료 예정이거나 용량에 도달한 라이선스 및 구독이 포함됩니다.

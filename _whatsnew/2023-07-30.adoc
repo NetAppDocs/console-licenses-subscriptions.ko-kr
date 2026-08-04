@@ -4,6 +4,7 @@
 
 
 
+[[usage-reports-enhancements]]
 === 사용 보고서 개선
 
 Cloud Volumes ONTAP 사용 보고서에 다음과 같은 여러 가지 개선 사항이 적용되었습니다.

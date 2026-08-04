@@ -24,6 +24,7 @@ https://www.netapp.com/services/keystone/["Keystone 에 대해 자세히 알아�
 
 
 
+[[authorize-your-account]]
 == 계정 승인
 
 콘솔에서 Keystone 구독을 사용하고 관리하려면 먼저 NetApp 에 ​​문의하여 Keystone 구독으로 콘솔 계정을 인증해야 합니다.
@@ -40,6 +41,7 @@ NetApp 담당자가 귀하의 계정에 구독에 대한 액세스를 승인하�
 
 
 
+[[link-a-subscription]]
 == 구독 연결
 
 NetApp 계정을 승인한 후 Keystone 구독을 연결하여 Cloud Volumes ONTAP 과 함께 사용할 수 있습니다. 이 작업을 통해 사용자는 새로운 Cloud Volumes ONTAP 시스템에 대한 요금 청구 방법으로 구독을 선택할 수 있습니다.
@@ -55,6 +57,7 @@ NetApp 계정을 승인한 후 Keystone 구독을 연결하여 Cloud Volumes ONT
 
 
 
+[[request-more-or-less-committed-capacity]]
 == 더 많거나 적은 용량을 요청하세요
 
 구독 서비스 수준에 대한 약정 용량을 변경하려면 콘솔에서 직접 NetApp 에 ​​요청을 보낼 수 있습니다. 서비스 수준에 대한 추가 용량을 요청하면 Cloud Volumes ONTAP 시스템에 더 많은 스토리지가 제공됩니다.
@@ -72,6 +75,7 @@ NetApp 계정을 승인한 후 Keystone 구독을 연결하여 Cloud Volumes ONT
 
 
 
+[[monitor-usage]]
 == 모니터 사용
 
 Digital Advisor 대시보드를 사용하면 Keystone 구독 사용량을 모니터링하고 보고서를 생성할 수 있습니다.
@@ -80,6 +84,7 @@ https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.h
 
 
 
+[[unlink-a-subscription]]
 == 구독 연결 해제
 
 콘솔에서 Keystone 구독을 더 이상 사용하지 않으려면 구독 연결을 해제할 수 있습니다. 기존 Cloud Volumes ONTAP 구독에 연결되지 않은 구독만 연결 해제할 수 있습니다.
