@@ -73,7 +73,7 @@ image:screenshot_cvo_licensing_card.png["width=300 Cloud Volumes ONTAP 라이선
 
 
 
-[[viewing-package-details]]
+[[view-package-details]]
 == 패키지 세부 정보 보기
 
 Cloud Volumes ONTAP 페이지에서 레거시 모드로 전환하면 패키지별로 사용된 용량에 대한 세부 정보를 볼 수 있습니다.

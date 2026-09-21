@@ -31,7 +31,7 @@ sidebar:
         entries:
         - title: Cloud Volumes ONTAP 에 대한 용량 기반 라이선스
           url: "/task-manage-capacity-licenses.html"
-        - title: Cloud Volumes ONTAP 에 대한 노드 기반 라이선스
+        - title: Cloud Volumes ONTAP용 BYOL 라이센스
           url: "/task-manage-node-based-licenses.html"
     - title: 비공개 제안 관리
       entries:
