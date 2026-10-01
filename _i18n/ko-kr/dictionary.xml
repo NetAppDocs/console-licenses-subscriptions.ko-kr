@@ -1003,7 +1003,6 @@
   <block id="847e45a642e11ad647bc1b931aa93b6f" category="paragraph">NetApp은 모든 신규 구축에 용량 기반 라이선스를 권장합니다. 이전 세대 노드 기반 모델을 사용하는 기존 라이선스가 있는 경우 용량 기반 라이선스로 전환해야 합니다. 자세한 내용은<block ref="6c9714235e53a411b3b31b5a9d910769" category="inline-link-rx"></block>을 참조하십시오.</block>
   <block id="6eb61ba1a2f61db4d9f72f3888890463" category="admonition">클라우드 공급업체 마켓플레이스에서 제공하는 종량제(PAYGO) 구독은 프라이빗 모드 배포에서 사용할 수 없습니다. 프라이빗 모드에서는 NetApp이 BYOL(Bring Your Own License) 라이선스를 직접 제공합니다. 노드 기반 라이선스는 기존 프라이빗 모드 배포에서만 사용할 수 있으며 신규 배포는 불가능합니다. NetApp은 2025년 6월 25일부터 프라이빗 모드에서 노드 기반 라이선스의 구매, 연장 및 갱신을 제한했습니다. 기존에 노드 기반 라이선스를 보유하고 있는 경우 용량 기반 라이선스로 전환해야 합니다.</block>
   <block id="0814f25d2fb19660c0f5a17f5faecd5b" category="inline-link">프라이빗 클라우드 모드에서 Cloud Volumes ONTAP 배포</block>
-  <block id="993fca3d74b4e0c45a0b63335fff4fc2" category="paragraph">새로운 프라이빗 모드 배포의 경우 용량 기반 라이선스를 대신 사용하십시오. 을(를) 참조하십시오.<block ref="a830c5764652e2ca74bb3dce260e01c7" category="inline-link-rx"></block></block>
   <block id="63a4063cbdde53629f056f26faa6a46b" category="section-title">PAYGO 구독 관리</block>
   <block id="27d6a6ca8e88ba1cb467019b29f60d17" category="paragraph">Licenses and subscriptions 메뉴를 통해 각 PAYGO Cloud Volumes ONTAP 시스템에 대한 세부 정보(일련 번호 및 PAYGO 구독 유형 포함)를 확인할 수 있습니다. 클라우드 공급업체의 마켓플레이스에서 제공되는 PAYGO 구독은 용량 기반 라이선스에만 해당됩니다.</block>
   <block id="13cd5e1a4f18ae48c4acaf913e719713" category="list-text">왼쪽 탐색 창에서 *관리 &gt; Licenses and subscriptions*을 선택합니다.</block>
@@ -1025,4 +1024,5 @@
   <block id="9013cda65f4f0c57c44bcdefc6feb154" category="admonition">이는 표준 모드 배포에만 적용됩니다. PAYGO는 프라이빗 모드에서는 사용할 수 없기 때문입니다.</block>
   <block id="5eb5d5752efd31fd46b0201cfca01e77" category="paragraph">PAYGO 라이선스에서 BYOL 라이선스로(또는 그 반대로) 시스템을 전환하는 것은 지원되지 않습니다. PAYGO 구독에서 BYOL 구독으로 전환하려면 새 시스템을 배포하고 기존 시스템의 데이터를 새 시스템으로 복제해야 합니다.</block>
   <block id="8c7bfac6e491e33091d317e6d08f0751" category="sidebar">Cloud Volumes ONTAP용 BYOL 라이센스</block>
+  <block id="c04205f36d58d2d1ec62c2899d062abf" category="paragraph">새로운 프라이빗 모드 배포의 경우 용량 기반 라이선스를 대신 사용하십시오. 을(를) 참조하십시오.<block ref="e18a894e162de115535720d8609168d7" category="inline-link-rx"></block></block>
 </blocks>
