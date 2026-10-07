@@ -1025,4 +1025,86 @@
   <block id="5eb5d5752efd31fd46b0201cfca01e77" category="paragraph">PAYGO 라이선스에서 BYOL 라이선스로(또는 그 반대로) 시스템을 전환하는 것은 지원되지 않습니다. PAYGO 구독에서 BYOL 구독으로 전환하려면 새 시스템을 배포하고 기존 시스템의 데이터를 새 시스템으로 복제해야 합니다.</block>
   <block id="8c7bfac6e491e33091d317e6d08f0751" category="sidebar">Cloud Volumes ONTAP용 BYOL 라이센스</block>
   <block id="c04205f36d58d2d1ec62c2899d062abf" category="paragraph">새로운 프라이빗 모드 배포의 경우 용량 기반 라이선스를 대신 사용하십시오. 을(를) 참조하십시오.<block ref="e18a894e162de115535720d8609168d7" category="inline-link-rx"></block></block>
+  <block id="c94428bb3046fd91680400484ec8c2c2" category="summary">NetApp Console의 라이선스 및 구독 관련 자주 묻는 질문입니다.</block>
+  <block id="e39296410a50d9564db54d62c735ace8" category="doc">Licenses and subscriptions 관련 FAQ</block>
+  <block id="fca1552e54aafb03817332403cc25be2" category="paragraph">이 페이지에서는 NetApp Console의 Licenses and subscriptions에 대해 자주 묻는 질문에 대한 답변을 제공합니다. 직접 라이선스, 마켓플레이스 구독, 비공개 오퍼, Keystone 구독 및 청구 기본 설정을 관리할 때 유용한 개념, 결정 사항 및 제약 조건에 중점을 둡니다.</block>
+  <block id="95b63cfa66fbe939afaa56fb263790be" category="section-title">개요 및 접근 방법</block>
+  <block id="91ba5c879d87d8a3393b194c6d180bcf" category="list-title">NetApp Console에서 직접 라이선스, 마켓플레이스 구독, Keystone 구독의 차이점은 무엇입니까?</block>
+  <block id="15757781995964d7beff8f186804e435" category="list-text">*직접 라이선스*는 NetApp에서 구매하며 일반적으로 라이선스 파일, 일련 번호 또는 용량 권한을 사용하여 관리됩니다. 이를 흔히 bring-your-own-license(BYOL)라고 합니다.</block>
+  <block id="98eda3e5bd29aa5ea47544d5bd2448f8" category="list-text">*Marketplace 구독*은 AWS Marketplace, Azure Marketplace 또는 Google Cloud Marketplace를 통해 구매하거나 활성화됩니다. 요금은 클라우드 제공업체를 통해 청구됩니다.</block>
+  <block id="7c9b1ba75dc2c146109c9ad8370d8a9f" category="list-text">*Keystone 구독*은 NetApp 사용량 기반 계약입니다. NetApp이 콘솔 계정을 승인하면, 적격 Cloud Volumes ONTAP 구축 환경에서 Keystone을 결제 수단으로 사용할 수 있습니다.</block>
+  <block id="97bc8230771ed4fb4237964d5f13f463" category="paragraph-title">라이선스 및 구독이 NetApp Console에 자동으로 표시되지 않는 이유는 무엇입니까?</block>
+  <block id="5800153968c3897b3c766be08c28d5c6" category="paragraph">라이선스 및 구독 정보는 콘솔 계정이 NetApp 지원 사이트(NSS) 계정과 연결된 경우에만 자동으로 표시됩니다. 콘솔 계정이 NSS 계정과 연결되어 있지 않으면 라이선스를 수동으로 추가해야 합니다. 사용량, 용량 및 기타 세부 정보도 자동으로 업데이트되지 않습니다.<block ref="d91c407ebd602e3da49f4a9118ef9c8a" category="inline-link-rx"></block>.</block>
+  <block id="7ff3ccb91596a802d1df63e95ddd3bd3" category="paragraph-title">라이선스 및 구독을 보려면 Console 에이전트가 필요한가요?</block>
+  <block id="7e6983239f1be0a45976fcb886e9f284" category="paragraph">구독 정보를 보려면 Console 에이전트를 배포해야 합니다. Cloud Volumes ONTAP에 대한 직접 라이선스를 보려면 에이전트도 필요합니다.</block>
+  <block id="6ee01e6be90e0aa1a6f4060e3db3a9da" category="paragraph-title">NetApp Console에서 어떤 서비스에 대한 Licenses and subscriptions를 관리할 수 있습니까?</block>
+  <block id="1a6db682e7620d09c7c25e949ab7f6e3" category="paragraph">Backup and Recovery, Cloud Tiering, Cloud Volumes ONTAP, Disaster Recovery(BYOL만 해당) 및 Ransomware Resilience에 대한 Licenses and subscriptions를 관리할 수 있습니다.</block>
+  <block id="b3f3c02902f1b0853ad298e9918b56e8" category="paragraph-title">NetApp Console에서 라이선스 및 구독을 관리할 수 있는 역할은 무엇입니까?</block>
+  <block id="fa2d64346232775184ba10a2678ec588" category="paragraph">Licenses and subscriptions 관리자 역할을 가진 사용자는 직접 라이선스를 추가, 편집 및 삭제할 수 있으며, 마켓플레이스 및 Keystone 구독을 연결하거나 연결 해제할 수 있습니다.</block>
+  <block id="58b6288a421556df6043d39b64070b4c" category="paragraph">해당 보기 권한이 있는 사용자는 Licenses and subscriptions를 볼 수 있지만 변경할 수는 없습니다.</block>
+  <block id="052c4c5af2acbc73e0fbe897f70f8ebc" category="paragraph-title">개요 대시보드에서 새 라이선스 또는 구독을 추가할 수 없는 이유는 무엇입니까?</block>
+  <block id="2bd901bcae2ca84d22543fa99bd68ecc" category="paragraph">개요 대시보드는 기존 라이선스 문제를 검토하고 해결하기 위한 것입니다. 직접 라이선스를 추가하려면 *직접 라이선스*로 이동하십시오. 마켓플레이스 구독을 추가하거나 연결하려면 *마켓플레이스 구독*으로 이동하십시오.</block>
+  <block id="72f39c1f99603202cb121b40b8c90b60" category="paragraph-title">라이선스나 구독에 주의가 필요한지 어떻게 알 수 있습니까?</block>
+  <block id="7a5e45661d4123156602f6a2dabd24f5" category="paragraph">개요 대시보드의 *조치 필요* 타일은 만료 예정이거나 용량 제한에 도달한 라이선스 및 구독을 알려줍니다. *해결*이 표시되지 않으면 조치가 필요한 문제가 없습니다. *해결*을 선택하면 *라이선스* 또는 *구독* 탭에서 문제를 확인하고 해결할 수 있는 페이지로 이동합니다.</block>
+  <block id="4f25441eda7b667305d4891e08c98400" category="section-title">직접 라이선스(BYOL)</block>
+  <block id="96a9a822e874fd81749e2f1a2b6e306c" category="paragraph-title">NSS 계정을 연동하는 것과 라이선스 파일을 수동으로 업로드하는 것의 차이점은 무엇인가요?</block>
+  <block id="c4e4d091ff4be8fba7d96f91fc54765c" category="paragraph">콘솔 계정을 NSS 계정과 연결하면 콘솔에서 라이선스를 자동으로 감지하고 업데이트할 수 있습니다. 또한 라이선스를 추가하거나 업데이트하기 위해 일련 번호를 입력할 때도 NSS 계정 연결이 필요합니다.</block>
+  <block id="d851862c0f2c2d5206d7a430fd4f1e3c" category="paragraph">콘솔이 인터넷에 연결되어 있지 않거나 콘솔 계정이 NSS 계정과 연결되어 있지 않은 경우, NetApp 라이선스 파일을 수동으로 가져와서 업로드해야 합니다. 이러한 경우 콘솔에서 라이선스를 자동으로 조회하거나 업데이트할 수 없습니다.</block>
+  <block id="72be90f765aa59906f1d62ea6f3698f7" category="list-title">Cloud Volumes ONTAP에 대한 용량 기반 및 노드 기반 BYOL 라이선스의 차이점은 무엇입니까?</block>
+  <block id="c86c234ca98705da5ac2cf9fd42dbfb8" category="list-text">*용량 기반 BYOL 라이선스*의 경우, 라이선스는 단일 시스템이 아닌 콘솔 계정과 연결됩니다. 각 시스템에는 고유한 일련 번호가 부여되지만, 동일 계정의 여러 시스템은 공유 용량 풀에서 리소스를 사용합니다.</block>
+  <block id="03362570512ef9746d63f37f7a8b7080" category="list-text">*노드 기반 BYOL 라이선스*의 경우, 풀링은 적용되지 않습니다. 각 Cloud Volumes ONTAP 시스템에는 자체 전용 시스템 라이선스가 필요하지만, 기존 시스템을 삭제하면 새 시스템으로 라이선스를 이전할 수 있습니다.</block>
+  <block id="bbad4106c25308fe9d3f73fb73d83cf6" category="inline-link">노드 기반 라이선스를 용량 기반 라이선스로 변환하는 방법을 알아보세요</block>
+  <block id="d063728e3e5084e5fc69b2ddcdf6e039" category="paragraph">노드 기반 라이선스는 이전 세대 모델입니다. NetApp은 모든 신규 구축에 대해 용량 기반 라이선스를 권장하며, 기존 노드 기반 라이선스는 전환해야 합니다.<block ref="78ff16872c9f49d77b6b262196f53fa3" category="inline-link-rx"></block>.</block>
+  <block id="f25ba906034fd51dd96d732d92ada1c7" category="paragraph-title">할당되지 않은 Cloud Volumes ONTAP 라이선스를 다른 서비스로 교환하면 어떻게 되나요?</block>
+  <block id="6ee37870f03dbded2322b3f33f465c2f" category="paragraph">할당되지 않은 Cloud Volumes ONTAP 라이선스를 교환하면 해당 라이선스가 취소되고 새 서비스(NetApp Backup and Recovery, Data Classification 또는 Cloud Tiering)에 대한 동일한 금액의 라이선스가 생성됩니다.</block>
+  <block id="21fe571bcca5441bc73f4f47f9b69690" category="list-text">HA 쌍에 대한 라이선스는 51 TiB 직접 라이선스로 변환됩니다.</block>
+  <block id="9da8005427de9857faf9e978012fc803" category="list-text">단일 노드 라이선스는 32 TiB 직접 라이선스로 변환됩니다.</block>
+  <block id="6f804e7300ccd6aa4b32373ab4627167" category="paragraph">변환된 라이선스는 기존 Cloud Volumes ONTAP 라이선스와 동일한 만료일을 유지합니다.</block>
+  <block id="e43abd0e284b050c49d5467674a8e6d4" category="paragraph-title">BYOL 라이선스에 대한 요금이 청구되는지, 아니면 PAYGO 마켓플레이스 구독에 대한 요금이 청구되는지 어떻게 알 수 있습니까?</block>
+  <block id="584fef7cc7b53eef9d7493a2eb0a4539" category="paragraph">콘솔은 먼저 사용 가능한 NetApp 라이선스를 기준으로 사용량을 청구하려고 시도합니다. 충분한 라이선스 용량이 없는 경우, 연결된 Marketplace PAYGO 구독을 기준으로 사용량을 청구합니다.</block>
+  <block id="ab151b5bc21dd015daf8120f1e3b41b3" category="paragraph">용량 기반 라이선스 패키지를 변경해도 사용량에 대한 요금 청구 방식이 NetApp 구매 라이선스(BYOL)인지 마켓플레이스 PAYGO 구독인지는 변경되지 않습니다. BYOL 라이선스를 마켓플레이스 구독으로 또는 그 반대로 변환할 필요가 없습니다.</block>
+  <block id="42a94f2594c760c6f154eeb8e4d5e03b" category="paragraph-title">마켓플레이스 계약에 포함되지 않은 결제 방식을 선택하면 어떻게 되나요?</block>
+  <block id="87b2cf4bb355ba521c552e592ad112be" category="paragraph">마켓플레이스 개인 제안 또는 계약에 포함되지 않은 결제 방식을 선택하면 해당 마켓플레이스 패키지를 사용할 수 없습니다. 사용량은 사용 가능한 경우 NetApp 라이선스에 따라 청구되거나, 대신 PAYGO를 통해 청구됩니다.</block>
+  <block id="a5c2b81fbe88d1bf65404f4762cefc03" category="section-title">마켓플레이스 구독 및 비공개 상품</block>
+  <block id="e1336e4dc4959a89830db63c600b6e25" category="paragraph-title">하나의 Azure 구독 또는 Google Cloud 프로젝트에 연결할 수 있는 Marketplace 구독은 몇 개입니까?</block>
+  <block id="d992ff58ac6eb19a409f65a445fe12ba" category="paragraph">하나의 Azure 구독 또는 Google Cloud 프로젝트에는 하나의 Marketplace 구독만 연결할 수 있습니다. 동일한 Azure 구독 또는 Google Cloud 프로젝트에서 두 개의 서로 다른 Marketplace 구독을 사용하여 워크로드를 실행하려면 각 구독에 대해 별도의 Console 계정을 두 개 생성해야 합니다.</block>
+  <block id="f3442c3a8e665adfdf01f89a5cc83548" category="paragraph-title">Licenses and subscriptions에서 Marketplace 구독을 언제 제거할 수 있습니까?</block>
+  <block id="87098940f387ae7be985359aba04b860" category="inline-link-macro">구독을 제거하는 방법을 알아보십시오</block>
+  <block id="01fd8eb45d4278f8a98fe31e5663adf7" category="paragraph">상태가 *구독 취소됨*인 구독만 삭제할 수 있으며, 삭제하기 전에 관련 설정, 데이터 및 구성을 모두 지우거나 재설정해야 합니다. 구독이 여전히 구성된 상태라면 *삭제* 옵션을 사용할 수 없습니다. <block ref="66fbc603396c2dce18c0e649567a9cf9" category="inline-link-macro-rx"></block>.</block>
+  <block id="ee5e6baebd6caafa4477793c1d126855" category="paragraph-title">프라이빗 오퍼를 두 번 이상 수락하거나 활성화하면 어떤 위험이 있습니까?</block>
+  <block id="b515b2da3f5fbf13b5e757490029bf58" category="paragraph">프라이빗 오퍼를 여러 번 수락하고 활성화하면 이중 청구가 발생할 수 있습니다. 수락 과정에서 필수 단계를 건너뛰면 청구 오류 또는 활성화 문제가 발생할 수도 있습니다.</block>
+  <block id="ddb78f0e48ecb384173872083052805b" category="paragraph-title">개인 제안의 조건, 가격 또는 세부 정보가 잘못된 것 같으면 어떻게 해야 합니까?</block>
+  <block id="ae7f532bfe6fb607d23c4deac70ce1b9" category="paragraph">제안 조건, 가격 또는 세부 정보에 불일치가 있거나 어떤 제안을 수락해야 할지 확실하지 않은 경우 제안을 수락하지 마십시오. 진행하기 전에 NetApp 영업 또는 계정 담당 팀에 문의하여 자세한 내용을 확인하십시오.</block>
+  <block id="6c609d5952e2b5dee78195a5c3d73be2" category="paragraph-title">수정된 Google Cloud 비공개 제안을 수락하거나 이미 PAYGO 구독을 사용 중인 경우 어떻게 됩니까?</block>
+  <block id="4ca7b930f127f45934d6a3d9110011ad" category="paragraph">이미 활성 PAYGO 구독 또는 수정된 비공개 오퍼가 있는 경우 수락 단계만 수행하면 됩니다. 이러한 경우 Google Cloud Marketplace는 동일한 목록 내에서 요금제를 업데이트하고 동일한 구독 ID를 유지하므로 콘솔의 구독 연결이 그대로 유지됩니다.</block>
+  <block id="8f800330489e046e59ba462eb4743db0" category="paragraph-title">무료 체험 결제 계정을 사용하여 Google Cloud 비공개 오퍼를 수락할 수 있나요?</block>
+  <block id="08266351633fe7e64dcda058b80f4c4a" category="paragraph">아니요. Google Cloud 결제 계정은 무료 체험판이 아니어야 합니다. 무료 체험판 계정으로는 개인 제안을 수락할 수 없기 때문입니다. 무료 체험판 결제 계정을 사용하려고 하면 오류가 발생하여 NetApp 클라우드 팀의 지원이 필요합니다.</block>
+  <block id="4758cae9153e1d37d120173e1c17b899" category="paragraph-title">여러 AWS 구독 유형을 사용하거나 목록 간에 마이그레이션하는 경우 이중으로 요금이 청구되나요?</block>
+  <block id="6e0ffc28497d27ad3c6bea6ff91952d8" category="section-title">Keystone 구독</block>
+  <block id="afeacbb0058824cb96ab345802f0253c" category="paragraph-title">Keystone 구독을 사용하기 전에 NetApp에서 콘솔 계정을 승인해야 하는 이유는 무엇입니까?</block>
+  <block id="cc3683b84103b9d7025843298b37841e" category="inline-link-macro">Keystone 구독을 위해 계정을 인증하는 방법에 대해 자세히 알아보세요.</block>
+  <block id="1ddbd326109478c150bd5ee42a2be073" category="paragraph">Keystone 구독을 사용하거나 관리하려면 먼저 NetApp에서 콘솔 계정에 권한을 부여해야 합니다. 이 승인을 통해 적격 Keystone 구독을 NetApp Console에서 사용할 수 있게 됩니다. *Welcome to NetApp Keystone* 페이지가 표시되면 해당 페이지의 연락처 지침에 따라 권한 부여를 요청하십시오. <block ref="ccba95fb3ce5ea62a11f1072c0db5deb" category="inline-link-macro-rx"></block>.</block>
+  <block id="92603228098fd0a7bccc76d25d61ffa5" category="paragraph-title">Keystone 구독을 연결하면 어떻게 됩니까?</block>
+  <block id="f8b7497895781a40e677a93347ac5ad8" category="paragraph">Keystone 구독을 연결하면 해당 구독이 콘솔 조직 또는 계정과 연결되어 새 Cloud Volumes ONTAP 작업 환경을 생성할 때 결제 방법으로 사용할 수 있게 됩니다.</block>
+  <block id="baeca400c03940f797885029f24bbfb4" category="paragraph-title">Keystone 구독은 언제 연결을 해제할 수 있나요?</block>
+  <block id="696a535afea51e6026dd909607ef3c19" category="paragraph">Keystone 구독은 기존 Cloud Volumes ONTAP 구독에 연결되어 있지 않은 경우에만 연결을 해제할 수 있습니다.</block>
+  <block id="393c65738fc34db3d8764271f51fc884" category="paragraph-title">Keystone 구독의 약정 용량을 변경하려면 어떻게 해야 하나요?</block>
+  <block id="de5f733948f9b5c6c1c221e061760e74" category="paragraph">하나 이상의 구독에 대해 요청된 확정 용량을 입력하고 추가 세부 정보를 제출하여 콘솔에서 직접 NetApp에 요청을 보낼 수 있습니다. 이렇게 하면 처리를 위해 NetApp 시스템에 티켓이 생성됩니다.</block>
+  <block id="1dc35a17e636bd2e2598155007f82709" category="paragraph-title">"NetApp 라이선스 우선"과 "마켓플레이스 구독 전용" 결제 방식의 차이점은 무엇입니까?</block>
+  <block id="1c3c2018e4d1bcc85efd8f3c7e03b1e0" category="paragraph">"NetApp 라이선스 우선"은 활성 NetApp 라이선스를 통한 청구를 우선시하며, 해당 용량이 소진되면 연결된 Marketplace 구독으로 사용량이 이월됩니다. "Marketplace 구독 전용"은 NetApp 라이선스를 완전히 우회하여 Marketplace 계약을 통해 모든 청구를 처리합니다. 이는 클라우드 공급업체 청구를 통해 조달을 표준화하는 조직에서 일반적으로 사용됩니다.</block>
+  <block id="f38b3fa18b7aefec432eaa16e00fd1bb" category="paragraph-title">청구 환경설정에서 사용자 지정 CVO 구성을 언제 활성화해야 하나요?</block>
+  <block id="5d383c647692922fe9435887ff48c455" category="paragraph">조직에서 다음을 수행해야 하는 경우 사용자 지정 CVO 구성을 활성화하십시오:</block>
+  <block id="d4af80d7cf6a6a78ae22554d3e6a4c44" category="list-text">별도의 사업부나 환경에서 서로 다른 청구 계정을 유지하기 때문에 동일한 클라우드 공급자 내에서 여러 Marketplace 구독을 개별 Cloud Volumes ONTAP 인스턴스에 매핑합니다.</block>
+  <block id="08cb18c400d0561bb5ba24bd41482941" category="list-text">하나의 구독을 여러 클라우드 프로젝트에 매핑하십시오.</block>
+  <block id="367951dd3427a3bc7d967d62fa29f958" category="paragraph">예를 들어, A 사업부가 하나의 Azure 구독으로 요금을 청구하고 B 사업부가 다른 구독으로 요금을 청구하는 경우, 사용자 지정 CVO 구성을 통해 각 사업부의 Cloud Volumes ONTAP 인스턴스를 해당 사업부의 구독에 매핑할 수 있습니다.</block>
+  <block id="9966fffbf27f7fdb0888dae3b958aee2" category="paragraph-title">사용자 지정 CVO 구성을 활성화한 후 비활성화하면 어떻게 되나요?</block>
+  <block id="aaf522015c944666cd50a385230fb07b" category="paragraph">사용자 지정 CVO 구성을 비활성화하면 사용자 지정 CVO 구성에서 허용했던 인스턴스별 구독 매핑 대신, 다른 데이터 서비스에 사용되는 전역 청구 모드(NetApp 라이선스 우선 또는 마켓플레이스 구독만)로 모든 Cloud Volumes ONTAP 청구가 재설정됩니다.</block>
+  <block id="ef757573c417a6b6f47fed571a2762b0" category="paragraph-title">독립형 AWS 구독과 NetApp Intelligent Services(NIS) 구독을 모두 보유한 경우 Cloud Volumes ONTAP 용량에 대한 요금을 어떻게 청구해야 합니까?</block>
+  <block id="9a99ccee6f9f390c3c6049ee3028f717" category="inline-link">Cloud Volumes ONTAP 라이선스 패키지에 대해 자세히 알아보세요</block>
+  <block id="f893601189dde189c09f2c31f2bc6a77" category="paragraph">AWS 계정에서 두 구독 모두 사용 가능한 경우, 결제 기본 설정을 사용하여 Cloud Volumes ONTAP 용량 결제에 사용할 구독을 선택할 수 있습니다. NIS를 통해 이미 결제되는 기존 Cloud Volumes ONTAP 시스템의 경우, 독립형 구독을 추가해도 결제 기본 설정을 업데이트하지 않는 한 결제가 변경되지 않습니다. 독립형 구독이 제공된 후 생성된 새 배포의 경우, 별도로 재정의하지 않는 한 기본적으로 독립형 구독이 용량 결제(Essentials/Freemium)에 사용됩니다.<block ref="1ce900b2619df7c875d2732ee805a97d" category="inline-link-rx"></block>.</block>
+  <block id="9e45cbb032e60a5ad075f52ddebcb9d3" category="paragraph-title">단독 Cloud Volumes ONTAP AWS 구독을 사용하여 Professional 패키지 또는 Backup and Recovery 요금을 청구할 수 있습니까?</block>
+  <block id="2a5535a986bf2e8ab19fcdd0751b05b3" category="paragraph">아니요. 독립형 Cloud Volumes ONTAP 구독은 용량 기반의 Essentials 및 Freemium 패키지만 지원합니다. Professional 패키지는 지원되지 않으며 계속해서 NIS 구독을 통해 요금이 청구됩니다. 독립형 구독만 연결된 경우 Essentials를 사용하여 Cloud Volumes ONTAP을 배포할 수 있지만 Backup and Recovery를 구성하려면 다른 구독이 필요합니다.<block ref="1ce900b2619df7c875d2732ee805a97d" category="inline-link-rx"></block>.</block>
+  <block id="d11ce840a3409047f1a6a0f11bf10453" category="paragraph-title">청구 설정에서 Keystone 필드는 무엇에 사용되나요?</block>
+  <block id="96805c41b51ac0c39a675d261c6a02ac" category="paragraph">Keystone 필드는 측정된 서비스 사용량을 Keystone 청구 프로필에 연결합니다. *계약 ID*는 NetApp Console의 청구 기록을 Keystone 계약과 연결하고 사용량 보고를 동기화할 수 있게 해주는 고유 식별자입니다. *서비스 범위*는 Keystone 계약에 포함된 서비스 또는 용량 풀을 나열하여 어떤 워크로드 또는 배포가 포함되는지 명확히 하고, 적격 리소스에 대해서만 Keystone을 통해 청구되도록 합니다.</block>
+  <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">FAQ</block>
 </blocks>
