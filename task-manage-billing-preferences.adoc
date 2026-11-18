@@ -42,7 +42,7 @@ NetApp Console에서 청구 기본 설정을 구성하고 관리하여 조직 �
 . *Marketplace subscriptions*에서 각 클라우드 공급자(AWS, Azure 및 Google Cloud)에 대한 구독을 선택합니다.
 . 단일 클라우드 공급자 아래에서 여러 구독을 사용하는 경우 *Custom CVO configuration*을 활성화하세요.
 . 선택적으로 *Invoice contacts* 및 *Notification contacts*를 업데이트할 수 있습니다.
-. 선택적으로 청구를 내부 회계 코드와 연결하기 위해 *Cost center tag*를 입력합니다.
+. 선택적으로, 청구를 내부 회계 코드와 연결하기 위해 *비용 센터 태그*를 입력할 수 있습니다.
 . *변경 사항 저장*을 선택하세요.
 . 메시지가 표시되면 확인 대화 상자를 검토한 후 *확인*을 선택하십시오.
 

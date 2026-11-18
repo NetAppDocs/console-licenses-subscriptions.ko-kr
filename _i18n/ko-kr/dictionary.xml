@@ -515,10 +515,6 @@
   <block id="85bb8fe222d28237b7a61c8962355819" category="admonition">*마켓플레이스 구독* 페이지에는 모든 라이선스가 나열되어 있습니다. 특정 데이터 서비스에 대한 라이선스 세부 정보를 보려면 *개요* 대시보드의 데이터 서비스 타일을 사용하세요. <block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block> .</block>
   <block id="aea9c467234db8f0360906cb49a2233c" category="section-title">새로운 마켓플레이스 구독 추가</block>
   <block id="2739fe5739941e5e38c954a74ec97f61" category="paragraph">콘솔에서 바로 마켓플레이스 구독을 신청할 수 있습니다.</block>
-  <block id="2be16f237d558bd6b00788d28d21b37e" category="list-text">*마켓플레이스 구독*을 선택하세요.</block>
-  <block id="5aa066be2a651f3b22275be1f4cc2b4e" category="list-text">*구독* 표 위에서 *구독 추가*를 선택하세요.</block>
-  <block id="04a880965367eaf965a6ae341940ab0d" category="list-text">구독 추가 대화 상자에서 클라우드 공급자를 선택합니다.</block>
-  <block id="03863fd8ecb98c1d2286d087aaa70e52" category="list-text">AWS 구독을 선택하는 경우 연간 계약 또는 유료 구독을 원하는지 선택하세요.</block>
   <block id="b3883d339b720269f1092a8f0dffcc59" category="list-text">*구독 추가*를 선택하여 공급업체의 마켓플레이스로 이동하여 제공된 단계를 완료하세요.</block>
   <block id="3b32a98dd42670af00af73ef3e4b0007" category="list-text">클라우드 공급자 마켓플레이스에서 작업을 마치면 콘솔로 돌아가서 프로세스를 완료하세요.</block>
   <block id="e858f445394700e621aa67dd8e3fe958" category="section-title">구독 보기</block>
@@ -558,7 +554,6 @@
   <block id="c53adc94271638b800aab67861b845fc" category="admonition">콘솔은 조직을 사용하여 사용자와 리소스를 관리하는 표준 모드에서 IAM(Identity and Access Management)을 지원합니다. 비공개 모드나 제한 모드로 콘솔을 사용하는 경우 콘솔 계정을 사용하여 구독을 포함한 사용자와 리소스를 관리합니다.</block>
   <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">*연계*를 선택하세요.</block>
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">구독과 관련된 자격 증명 보기</block>
-  <block id="002d431b6337f0842f2c8f341268a2ad" category="paragraph">*마켓플레이스 구독* 페이지에서 특정 구독에 대한 자격 증명을 볼 수 있습니다. 이를 통해 구독료가 어떻게 청구되는지 확인할 수 있습니다. 자격 증명은 사용 중인 에이전트에 연결되어 있으므로, 보려는 구독과 연결된 에이전트를 선택해야 합니다.</block>
   <block id="305572f28aa8e98572395f6c22011dee" category="admonition">필요한 경우 상단 탐색 모음에서 에이전트 드롭다운을 사용하여 에이전트를 전환하세요.</block>
   <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">구독 제거</block>
   <block id="f718d4efc769e352af879333b97563c1" category="list-text">제거하려는 구독 행에서 작업 메뉴를 열고 *제거*를 선택하세요.</block>
@@ -942,7 +937,6 @@
   <block id="343b348d71ccb62dd010813fc2a13a5e" category="list-text"><block ref="6002f1f030715bc59708cf8f1b924fe3" category="inline-link-macro-rx"></block>.</block>
   <block id="259a94c9a9a486a09c1bd02fe5b547df" category="list-text"><block ref="9d10c472e1675ca6fce5c4e74a4b8028" category="inline-link-macro-rx"></block>.</block>
   <block id="57f2b91dd5d64f1e869c7510450457ba" category="list-text">선택적으로 *Invoice contacts* 및 *Notification contacts*를 업데이트할 수 있습니다.</block>
-  <block id="c574b540cd92e579d0adb2549eb5e6ad" category="list-text">선택적으로 청구를 내부 회계 코드와 연결하기 위해 *Cost center tag*를 입력합니다.</block>
   <block id="d1aa6173b8b0f269bcc23f11e54d8e9f" category="list-text">메시지가 표시되면 확인 대화 상자를 검토한 후 *확인*을 선택하십시오.</block>
   <block id="05fef605ad17853dff22052e9ab0016f" category="doc">Cloud Volumes ONTAP의 용량 기반 라이선싱 관리</block>
   <block id="5a4b99b6fc841017a0f50698712eacbd" category="paragraph"><block ref="13c3a734f25ff867542070e2d18cd1d4" category="inline-link-rx"></block>.</block>
@@ -982,17 +976,10 @@
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="section-title">AWS의 Cloud Volumes ONTAP 및 데이터 서비스에 대한 유연한 요금 청구</block>
   <block id="3d44d36eec8c18ebcfe6e7df6a18f232" category="inline-link-macro">Cloud Volumes ONTAP 릴리스 노트</block>
   <block id="1248d5014ab39f00f176398e4dc459dd" category="paragraph">AWS에서는 Cloud Volumes ONTAP 용량과 NetApp 데이터 서비스를 서로 다른 AWS 마켓플레이스 구독을 통해 청구할 수 있습니다. AWS 엔터프라이즈 할인 프로그램(EDP) 변경 사항 및 권장 사항에 대한 자세한 내용은 <block ref="c708501d41f6c7c2b393d4e8c20c8b78" category="inline-link-macro-rx"></block>을 참조하십시오.</block>
-  <block id="55d4964721d8399c5c67100bdaa60f41" category="paragraph">AWS 계정에 독립형 Cloud Volumes ONTAP 구독과 NetApp Intelligent Services(NIS) 구독이 모두 있는 경우 *청구 기본 설정*을 사용하여 Cloud Volumes ONTAP 용량 청구에 사용할 구독을 선택할 수 있습니다.</block>
-  <block id="5d31e1e7f8f8f7f232818d9271eaa736" category="admonition">청구 방식은 기존에 NIS를 통해 청구되는 Cloud Volumes ONTAP 시스템이 이미 운영 중인지, 아니면 독립형 Cloud Volumes ONTAP 구독을 추가한 후 새 시스템을 배포하는지에 따라 달라집니다. 기존 시스템의 경우, 독립형 구독을 추가해도 *청구 기본 설정*을 업데이트하지 않는 한 청구 방식은 변경되지 않습니다. 독립형 구독이 출시된 후 생성된 새 배포의 경우, *청구 기본 설정*에서 재정의하지 않는 한 Cloud Volumes ONTAP 용량 청구(Essentials/Freemium)에는 기본적으로 독립형 구독이 사용됩니다.</block>
-  <block id="e6d41b6ffe1a3ac4ac6f49198a9d0e97" category="list-text">독립형 Cloud Volumes ONTAP 구독(권장): Cloud Volumes ONTAP 용량(Essentials/Freemium)</block>
-  <block id="4b7bf84649d39c27ca19dff9239bed8b" category="list-text">NetApp Intelligent Services(NIS) 구독: NetApp 데이터 서비스(및 Cloud Volumes ONTAP Professional)</block>
-  <block id="d7d1942005392b35e5cbe164e61598f5" category="paragraph">독립형 Cloud Volumes ONTAP 구독은 용량 기반의 Essentials 및 Freemium 패키지만 지원합니다. Professional 패키지는 지원되지 않으며 NIS를 통해 요금이 청구됩니다. 독립형 구독만 연결된 경우 Essentials를 사용하여 Cloud Volumes ONTAP을 배포할 수 있지만, 백업 및 복구를 구성하려면 다른 구독이 필요합니다.</block>
   <block id="eb93ecbd8fdefaf3fdba89c22f5eb489" category="section-title">설정 위치</block>
   <block id="79422b968987cdd0a06fc1bfb81eff7e" category="paragraph">AWS 마켓플레이스 구독은 *관리 &gt; Licenses and subscriptions &gt; 마켓플레이스 구독*에서 연결할 수 있으며, Cloud Volumes ONTAP 용량 청구에 사용할 마켓플레이스 구독은 *관리 &gt; Licenses and subscriptions &gt; Billing preferences*에서 선택할 수 있습니다. 청구 세부 정보는 Cloud Volumes ONTAP 사용량 보고서를 통해 확인할 수 있습니다.</block>
   <block id="2aef8c7aa3736a735e2c270ba5fba388" category="admonition">여러 구독 유형을 사용하거나 목록 간에 마이그레이션하는 경우 중복 측정이 발생하지 않습니다.</block>
   <block id="24c5718a7b37767099a36f2e0a1ef086" category="list-text">*마켓플레이스 제공업체* — 결제가 처리되는 클라우드 플랫폼을 나타냅니다. 제공업체는 지원되는 기능, 계약 유형 및 갱신 규칙을 결정합니다. 예를 들어, AWS 마켓플레이스 구독은 계정 기반 결제를 사용하는 반면, Azure는 계정 기반 모델과 테넌트 기반 모델을 모두 지원할 수 있습니다.</block>
-  <block id="dbf314f960a580dec77c3328f5a7dcfe" category="list-text">AWS 마켓플레이스의 독립형 Cloud Volumes ONTAP 구독을 통해 Cloud Volumes ONTAP 용량에 대한 요금을 청구하려면 Cloud Volumes ONTAP 시스템에서 지원되는 용량 기반 패키지(Essentials 또는 Freemium)를 사용해야 합니다. Professional 패키지는 독립형 목록에서 지원되지 않으며 NIS 구독을 통해 요금이 청구됩니다. 원하는 패키지를 선택한 후 NetApp Console의 *청구 기본 설정*에서 Cloud Volumes ONTAP 요금 청구에 사용할 마켓플레이스 구독을 선택하십시오.</block>
-  <block id="3919d4b9a6b0d4b602f5cdf529c0ed29" category="admonition">AWS의 경우 계정에 NetApp 마켓플레이스 구독이 여러 개 있을 수 있습니다. 독립형 Cloud Volumes ONTAP 구독만 연결된 경우 Cloud Volumes ONTAP Essentials를 사용하여 Cloud Volumes ONTAP을 배포할 수 있지만 백업 및 복구를 구성하려면 다른 구독이 필요합니다. Cloud Volumes ONTAP 용량 청구에 사용할 구독을 선택하려면(기존 시스템의 청구 변경 포함) *Administration &gt; Licenses and subscriptions &gt; Billing preferences*로 이동하십시오.</block>
   <block id="9c4eec228f427828235463d59daed219" category="admonition">구독 정보를 보려면 콘솔 에이전트를 배포해야 합니다. Cloud Volumes ONTAP의 BYOL 라이센스를 보려면 에이전트도 필요합니다.</block>
   <block id="f7eccb32f78ffcc556a6e33ab837a577" category="section-title">패키지 세부 정보 보기</block>
   <block id="57ad4bfee5bc61eaf0dd46379c75ae34" category="summary">NetApp 콘솔에서 BYOL 라이선스를 관리하여 Cloud Volumes ONTAP 시스템에 필요한 용량을 갖춘 유효한 라이선스가 있는지 확인하십시오.</block>
@@ -1107,4 +1094,29 @@
   <block id="d11ce840a3409047f1a6a0f11bf10453" category="paragraph-title">청구 설정에서 Keystone 필드는 무엇에 사용되나요?</block>
   <block id="96805c41b51ac0c39a675d261c6a02ac" category="paragraph">Keystone 필드는 측정된 서비스 사용량을 Keystone 청구 프로필에 연결합니다. *계약 ID*는 NetApp Console의 청구 기록을 Keystone 계약과 연결하고 사용량 보고를 동기화할 수 있게 해주는 고유 식별자입니다. *서비스 범위*는 Keystone 계약에 포함된 서비스 또는 용량 풀을 나열하여 어떤 워크로드 또는 배포가 포함되는지 명확히 하고, 적격 리소스에 대해서만 Keystone을 통해 청구되도록 합니다.</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">FAQ</block>
+  <block id="9e74f964be832424d75d00443a02abfd" category="paragraph">AWS 마켓플레이스를 통해 구독할 경우 다음 네 가지 상품 중에서 선택할 수 있습니다:</block>
+  <block id="db69c473bc9f0522c1d1e82c01240f39" category="cell">오퍼링</block>
+  <block id="98198b44d2e1ab7fe6a5be24c488e659" category="cell">*Cloud Volumes ONTAP 전용 (연간 계약)*</block>
+  <block id="1ab9338008d05cd8154f483bd90abd2f" category="cell">연간 청구 방식의 독립형 Cloud Volumes ONTAP 제품입니다. 새로운 Cloud Volumes ONTAP 구축에 권장됩니다.</block>
+  <block id="dd4a436c9beb7dcd8bf5dc5ae9f2f9d6" category="cell">*Cloud Volumes ONTAP 전용 (PAYGO)*</block>
+  <block id="09c1bb1a2812a02691d07d3c9086b724" category="cell">유연한 사용량 기반 요금제를 제공하는 독립형 Cloud Volumes ONTAP 솔루션입니다. 새로운 Cloud Volumes ONTAP 구축에 권장됩니다.</block>
+  <block id="6a9fd5a32f74db17ecd0194530742aa8" category="cell">*NetApp Intelligent Services (연간 계약)*</block>
+  <block id="65b3785afe1903b8b021d02cacdaf6b4" category="cell">NetApp 데이터 서비스(연간 청구 방식). 기존 계약에 한해서만 Cloud Volumes ONTAP을 지원합니다.</block>
+  <block id="4f03c079a0ee3afb1e6a9c1ed79d4d79" category="cell">*NetApp Intelligent Services (PAYGO)*</block>
+  <block id="3edef72cedaf27c2ba4e10c912e9baf5" category="cell">NetApp 데이터 서비스는 사용량 기반의 유연한 요금제를 제공합니다. 기존 계약에 한해 Cloud Volumes ONTAP을 지원합니다.</block>
+  <block id="c920df4a89ff6330ffaa097381cd8a4f" category="paragraph">AWS 계정에 이러한 구독이 두 개 이상 연결되어 있는 경우 *청구 기본 설정*을 사용하여 Cloud Volumes ONTAP 용량 청구에 사용할 구독을 선택하세요.</block>
+  <block id="5657b1b17a5fee02b8774f6bf5a5e7a2" category="paragraph">청구 방식은 NetApp Intelligent Services 구독을 통해 요금이 청구되는 기존 Cloud Volumes ONTAP 시스템을 이미 운영 중인지, 아니면 Cloud Volumes ONTAP 전용 구독을 추가한 후 새 시스템을 배포하는지에 따라 달라집니다. 기존 시스템의 경우, *청구 기본 설정*을 업데이트하지 않는 한 Cloud Volumes ONTAP 전용 구독을 추가해도 청구 방식이 변경되지 않습니다. 새 배포의 경우, *청구 기본 설정*에서 재정의하지 않는 한 Cloud Volumes ONTAP 용량 청구(Essentials/Freemium)에는 기본적으로 Cloud Volumes ONTAP 전용 구독이 사용됩니다.</block>
+  <block id="0410d47749298eb3edeea20578b17906" category="paragraph">Cloud Volumes ONTAP 전용 제품은 용량 기반의 Essentials 및 Freemium 패키지만 지원합니다. Professional 패키지는 Cloud Volumes ONTAP 전용 제품에서는 지원되지 않으며, 계속해서 NetApp Intelligent Services 구독을 통해 요금이 청구됩니다. Cloud Volumes ONTAP 전용 구독만 연결되어 있는 경우 Essentials를 사용하여 Cloud Volumes ONTAP을 배포할 수 있지만, 백업 및 복구를 구성하려면 NetApp Intelligent Services 구독이 필요합니다.</block>
+  <block id="6ec7e17a566e328b2783ba5967fe8cb3" category="list-text">선택적으로, 청구를 내부 회계 코드와 연결하기 위해 *비용 센터 태그*를 입력할 수 있습니다.</block>
+  <block id="f17334f879855cf7befcf9561bf97a15" category="list-text">AWS 마켓플레이스에서 Cloud Volumes ONTAP 전용 구독(연간 계약 또는 종량제)을 통해 Cloud Volumes ONTAP 용량에 대한 요금을 청구하려면 Cloud Volumes ONTAP 시스템에서 지원되는 용량 기반 패키지(Essentials 또는 Freemium)를 사용해야 합니다. Professional 패키지는 독립형 목록에 지원되지 않으며 계속해서 NetApp Intelligent Services(NIS) 구독을 통해 요금이 청구됩니다. 원하는 패키지를 선택한 후 NetApp Console의 *청구 기본 설정*에서 Cloud Volumes ONTAP 요금 청구에 사용할 마켓플레이스 구독을 선택하십시오.</block>
+  <block id="3f965d7c45cc0190b87c2becf5a471e9" category="admonition">AWS의 경우, 계정에서 둘 이상의 NetApp 마켓플레이스 구독을 사용할 수 있으며, 이는 Cloud Volumes ONTAP 전용(연간 계약), Cloud Volumes ONTAP 전용(PAYGO), NetApp Intelligent Services(연간 계약) 및 NetApp Intelligent Services(PAYGO)의 네 가지 오퍼링 유형에 걸쳐 제공됩니다. Cloud Volumes ONTAP 전용 구독을 연결하면 Essentials를 사용하여 Cloud Volumes ONTAP을 배포할 수 있지만, 백업 및 복구를 구성하려면 다른 구독이 필요합니다. Cloud Volumes ONTAP 용량 청구에 사용할 구독을 선택하려면(기존 시스템의 청구 변경 포함) *관리 &gt; Licenses and subscriptions &gt; 청구 기본 설정*으로 이동하십시오.</block>
+  <block id="43d2cf2ce71b8435c7a906180eb4df47" category="list-text">*마켓플레이스 구독*을 선택하세요.</block>
+  <block id="24ebc7d3fd7281fa0b500d76d5fe3e8f" category="list-text">*구독* 테이블 위에서 *구독 추가*를 선택합니다.</block>
+  <block id="91df5427a9330980edecff2e8529da59" category="list-text">*구독 추가* 대화 상자에서 클라우드 공급자를 선택하세요.</block>
+  <block id="8281d9827f7929a1dbe1ae8a19025c6f" category="list-text">AWS 구독을 선택하는 경우 원하는 상품을 선택하십시오:</block>
+  <block id="ee229d507e42587befe7ec1f402601b6" category="list-text">Cloud Volumes ONTAP만 해당 (연간 계약)</block>
+  <block id="c5dba2e1bb5fa2beb5c0ca425e27217b" category="list-text">Cloud Volumes ONTAP만 해당 (PAYGO)</block>
+  <block id="4ba62f564fde21087abb74a5b0fa4893" category="list-text">NetApp Intelligent Services (연간 계약)</block>
+  <block id="e887dcff53cffb8d0e6690ae76695c8a" category="list-text">NetApp Intelligent Services (PAYGO)</block>
+  <block id="4e47334c9911a187f90ac8730b66533c" category="paragraph">*마켓플레이스 구독* 페이지에서 특정 구독의 자격 증명을 확인할 수 있습니다. 이를 통해 구독 요금이 어떻게 청구되는지 확인할 수 있습니다. 자격 증명은 사용 중인 에이전트와 연결되어 있으므로, 확인하려는 구독과 연결된 에이전트를 선택해야 합니다.</block>
 </blocks>
